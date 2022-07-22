@@ -1,6 +1,6 @@
 ﻿#include "MysqlThrd.h"
 #include <functional> //for std::bind
-#include "../base/AsyncLog.h"
+#include "../deng.h"
 
 
 CMysqlThrd::CMysqlThrd(void)

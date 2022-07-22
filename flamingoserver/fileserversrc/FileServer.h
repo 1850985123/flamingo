@@ -7,8 +7,6 @@
 #include <list>
 #include <map>
 #include <mutex>
-#include "../net/TcpServer.h"
-#include "../net/EventLoop.h"
 #include "FileSession.h"
 
 using namespace net;

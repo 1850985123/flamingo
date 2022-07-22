@@ -6,7 +6,7 @@
 #pragma once
 
 #include <memory>
-#include "../net/TcpConnection.h"
+#include "../deng.h"
 
 using namespace net;
 

@@ -7,9 +7,8 @@
 
 #include "../base/Platform.h"
 #include "../base/Singleton.h"
-#include "../base/ConfigFileReader.h"
-#include "../base/AsyncLog.h"
-#include "../net/EventLoop.h"
+#include "../base/ConfigFileReader/ConfigFileReader.h"
+#include "../deng.h"
 #include "FileManager.h"
 
 #ifndef WIN32

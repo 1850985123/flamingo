@@ -3,7 +3,7 @@
  * zhangyl 2017.03.09
  **/
 #include "TcpSession.h"
-#include "../base/AsyncLog.h"
+
 #include "../base/Singleton.h"
 #include "../net/ProtocolStream.h"
 #include "../zlib1.2.11/ZlibUtil.h"

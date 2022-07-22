@@ -4,6 +4,10 @@ project (FLAMGINGO_SERVER)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread")
 
+include_directories(
+	/usr/include/uuid/
+)
+
 link_directories(
     ${PROJECT_SOURCE_DIR}/lib
 	/usr/lib64/mysql/
@@ -22,28 +26,31 @@ IF (NOT MYSQL_LIB)
 ENDIF(NOT MYSQL_LIB)
 
 set(net_srcs 
-base/AsyncLog.cpp
-base/ConfigFileReader.cpp
+base/AsyncLog/AsyncLog.cpp
+base/ConfigFileReader/ConfigFileReader.cpp
 base/Platform.cpp
 base/Timestamp.cpp
+base/tinyWebserver/log/log.cpp
 
-net/Acceptor.cpp
-net/ByteBuffer.cpp
-net/Channel.cpp
+net/Acceptor/Acceptor.cpp
+net/ByteBuffer/ByteBuffer.cpp
+net/Channel/Channel.cpp
 net/Connector.cpp
-net/EpollPoller.cpp
-net/EventLoop.cpp
-net/EventLoopThread.cpp
-net/EventLoopThreadPool.cpp
-net/InetAddress.cpp
-net/Poller.cpp
-net/PollPoller.cpp
+
+net/Poller/EpollPoller.cpp
+net/Poller/Poller.cpp
+net/Poller/PollPoller.cpp
+net/Poller/SelectPoller.cpp
+
 net/ProtocolStream.cpp
-net/SelectPoller.cpp
-net/Sockets.cpp
-net/TcpClient.cpp
-net/TcpConnection.cpp
-net/TcpServer.cpp
+net/EventLoop/EventLoop.cpp
+net/EventLoop/EventLoopThread.cpp
+net/EventLoop/EventLoopThreadPool.cpp
+net/InetAddress.cpp
+net/Sockets/Sockets.cpp
+net/TcpClient/TcpClient.cpp
+net/TcpConnection/TcpConnection.cpp
+net/TcpServer/TcpServer.cpp
 net/Timer.cpp
 net/TimerQueue.cpp
 )
@@ -100,10 +107,12 @@ chatserversrc/ChatSession.cpp
 chatserversrc/UserManager.cpp
 chatserversrc/MsgCacheManager.cpp
 chatserversrc/TcpSession.cpp
-chatserversrc/MonitorSession.cpp
-chatserversrc/MonitorServer.cpp
-chatserversrc/HttpSession.cpp
-chatserversrc/HttpServer.cpp
+
+chatserversrc/MonitorServer/MonitorSession.cpp
+chatserversrc/MonitorServer/MonitorServer.cpp
+chatserversrc/HttpServer/HttpSession.cpp
+chatserversrc/HttpServer/HttpServer.cpp
+
 chatserversrc/BussinessLogic.cpp)
 
 set(fileserver_srcs
@@ -120,8 +129,18 @@ fileserversrc/FileSession.cpp
 fileserversrc/FileManager.cpp
 fileserversrc/TcpSession.cpp)
 
+set(websocketServer_srcs
+chatserversrc/WebsocketServer/websocketsrc/MyWebSocketServer.cpp
+chatserversrc/WebsocketServer/websocketsrc/MyWebSocketSession.cpp
+chatserversrc/WebsocketServer/appsrc/BusinessSession.cpp
+chatserversrc/WebsocketServer/websocketsrc/HttpParse.cpp
+chatserversrc/WebsocketServer/websocketsrc/httpMsg.cpp
+chatserversrc/WebsocketServer/websocketsrc/HttpMsgDeal.cpp
+)
 
-add_executable(chatserver ${net_srcs} ${json_srcs}  ${chatserver_srcs} ${mysqlapi_srcs} ${mysqlmgr_srcs} ${zlib_srcs} ${utils_srcs})
+
+
+add_executable(chatserver ${net_srcs} ${json_srcs}  ${chatserver_srcs} ${mysqlapi_srcs} ${mysqlmgr_srcs} ${zlib_srcs} ${utils_srcs} ${websocketServer_srcs})
 #光包含库目录是没用的，还必须使用TARGET_LINK_LIBRARIES链接该库
 TARGET_LINK_LIBRARIES(chatserver mysqlclient)
 

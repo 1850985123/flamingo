@@ -1,0 +1,51 @@
+2022-07-23 00:11:05.343669 [ERROR]: file = /root/deng/flamingo/flamingoserver/net/TcpConnection/TcpConnection.cpp, line = 423 :"TcpConnection::handleError()调用 ,client = 219.134.169.100:51677, fd = 57, state = kConnected"
+2022-07-23 00:11:05.344580 [ERROR]: file = /root/deng/flamingo/flamingoserver/net/TcpConnection/TcpConnection.cpp, line = 424 :"错误信息::MY-WEBSOCKET-SERVER:0.0.0.0:9999#30 handleError [110] - SO_ERROR = Connection timed out"
+2022-07-23 00:11:05.344729 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 219.134.169.100:51677, fd = 57, state = kConnected
+2022-07-23 00:11:05.344776 [LOG_DEBUG_WS]: 客户端连接: client = 219.134.169.100:51677, session: 0xc80040c0
+2022-07-23 00:11:05.344887 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-23 00:11:05.345322 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#30
+2022-07-23 00:11:05.345707 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#30 ，地址 =  0xdf79e0 , fd=57 ,state=kDisconnected
+2022-07-23 00:24:27.722808 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#46 ，地址 =  0xdf8610 fd=54
+2022-07-23 00:24:27.722883 [LOG_DEBUG_WS]: 客户端连接: client = 8.219.71.118:50046
+2022-07-23 00:24:27.723039 [LOG_DEBUG_WS]: HttpParse::PACKAGE_NOT_ENOUGH
+2022-07-23 00:24:27.731995 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#47 ，地址 =  0xdf79e0 fd=55
+2022-07-23 00:24:27.732183 [LOG_DEBUG_WS]: 客户端连接: client = 8.219.71.118:50504
+2022-07-23 00:24:27.732356 [LOG_DEBUG_WS]: HttpParse::PACKAGE_NOT_ENOUGH
+2022-07-23 00:24:35.655623 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-23 00:24:35.655663 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 8.219.71.118:50046, fd = 54, state = kConnected
+2022-07-23 00:24:35.655678 [LOG_DEBUG_WS]: 客户端连接: client = 8.219.71.118:50046, session: 0xc80040c0
+2022-07-23 00:24:35.656501 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#46
+2022-07-23 00:24:35.656590 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#46 ，地址 =  0xdf8610 , fd=54 ,state=kDisconnected
+2022-07-23 00:24:35.667644 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-23 00:24:35.667683 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 8.219.71.118:50504, fd = 55, state = kConnected
+2022-07-23 00:24:35.667698 [LOG_DEBUG_WS]: 客户端连接: client = 8.219.71.118:50504, session: 0xcc003e00
+2022-07-23 00:24:35.667766 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#47
+2022-07-23 00:24:35.667792 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#47 ，地址 =  0xdf79e0 , fd=55 ,state=kDisconnected
+2022-07-23 00:24:49.548894 [DEBUG]: TcpConnection::TcpConnection 构造, name = ZYL-MYIMMONITORSERVER:0.0.0.0:8888#5 ，地址 =  0xdf8610 fd=54
+2022-07-23 00:24:49.657058 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-23 00:24:49.657104 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 8.219.71.118:52564, fd = 54, state = kConnected
+2022-07-23 00:24:49.657153 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = ZYL-MYIMMONITORSERVER - TcpConnection =  ZYL-MYIMMONITORSERVER:0.0.0.0:8888#5
+2022-07-23 00:24:49.657198 [DEBUG]: TcpConnection::析构 , name =ZYL-MYIMMONITORSERVER:0.0.0.0:8888#5 ，地址 =  0xdf8610 , fd=54 ,state=kDisconnected
+2022-07-23 00:24:54.535792 [DEBUG]: TcpConnection::TcpConnection 构造, name = ZYL-MYIMMONITORSERVER:0.0.0.0:8888#6 ，地址 =  0xdf79e0 fd=54
+2022-07-23 00:24:54.632762 [ERROR]: file = /root/deng/flamingo/flamingoserver/net/TcpConnection/TcpConnection.cpp, line = 423 :"TcpConnection::handleError()调用 ,client = 8.219.71.118:56804, fd = 54, state = kConnected"
+2022-07-23 00:24:54.632799 [ERROR]: file = /root/deng/flamingo/flamingoserver/net/TcpConnection/TcpConnection.cpp, line = 424 :"错误信息::ZYL-MYIMMONITORSERVER:0.0.0.0:8888#6 handleError [104] - SO_ERROR = Connection reset by peer"
+2022-07-23 00:24:54.632805 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 8.219.71.118:56804, fd = 54, state = kConnected
+2022-07-23 00:24:54.632851 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-23 00:24:54.632879 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = ZYL-MYIMMONITORSERVER - TcpConnection =  ZYL-MYIMMONITORSERVER:0.0.0.0:8888#6
+2022-07-23 00:24:54.632949 [DEBUG]: TcpConnection::析构 , name =ZYL-MYIMMONITORSERVER:0.0.0.0:8888#6 ，地址 =  0xdf79e0 , fd=54 ,state=kDisconnected
+2022-07-23 00:25:08.015838 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#48 ，地址 =  0xdf8610 fd=54
+2022-07-23 00:25:08.015951 [LOG_DEBUG_WS]: 客户端连接: client = 8.219.71.118:47236
+2022-07-23 00:25:08.016738 [LOG_DEBUG_WS]: 请求方法 = GET
+2022-07-23 00:25:08.017049 [LOG_DEBUG_WS]: 请求路径 = http://passport.baidu.com/
+2022-07-23 00:25:08.017297 [LOG_DEBUG_WS]: 文件路径 = /root/deng/flamingo/flamingoserver/chatserversrc/WebsocketServer/resources/statichttp://passport.baidu.com/
+2022-07-23 00:25:08.017794 [LOG_DEBUG_WS]: HttpParse::PARSE_SUCCEED
+2022-07-23 00:25:11.584966 [DEBUG]: TcpConnection::TcpConnection 构造, name = ZYL-MYIMMONITORSERVER:0.0.0.0:8888#7 ，地址 =  0xdf79e0 fd=55
+2022-07-23 00:25:11.682904 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-23 00:25:11.682949 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 8.219.71.118:55480, fd = 55, state = kConnected
+2022-07-23 00:25:11.683037 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = ZYL-MYIMMONITORSERVER - TcpConnection =  ZYL-MYIMMONITORSERVER:0.0.0.0:8888#7
+2022-07-23 00:25:11.683062 [DEBUG]: TcpConnection::析构 , name =ZYL-MYIMMONITORSERVER:0.0.0.0:8888#7 ，地址 =  0xdf79e0 , fd=55 ,state=kDisconnected
+2022-07-23 00:25:15.951217 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-23 00:25:15.951292 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 8.219.71.118:47236, fd = 54, state = kConnected
+2022-07-23 00:25:15.951321 [LOG_DEBUG_WS]: 客户端连接: client = 8.219.71.118:47236, session: 0xc0002690
+2022-07-23 00:25:15.951464 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#48
+2022-07-23 00:25:15.951510 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#48 ，地址 =  0xdf8610 , fd=54 ,state=kDisconnected

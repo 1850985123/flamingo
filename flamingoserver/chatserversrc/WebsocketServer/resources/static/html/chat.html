@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>聊天室</title>
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/chat.js"></script>
+    <link type="text/css" rel="stylesheet" href="../css/chat.css">
+</head>
+
+<body>
+    <h1 align="center">聊天室</h1>
+    <div id="chatMeu" style="background-color: darkgrey"></div>
+    <!--聊天界面-->
+    <div id="chatBody">
+        <div id="chatMain">
+            <!--聊天展示区域-->
+            <div id="chatCnt">
+
+            </div>
+            <div id="chatArea">
+                <textarea id="tex_content" placeholder="请输入文字！"></textarea>
+                <input id="submit" type="button" value="发送">
+            </div>
+        </div>
+        <!--右侧-->
+        <div id="lists">
+            <!--好友列表-->
+            <ul class="ul_title">好友列表(请点击好友聊天)</ul>
+            <div id="friendsList_div">
+                <ul id="friendsList">
+                    <!-- <li><span class='friend' onclick=chatWith(1)> 18390242582</span>
+                        <div class="unreadDisplay"> 10</div>
+                    </li> -->
+                    <!-- <li><span class='friend' onclick=chatWith(1)> 18390242582</span>
+                        <div class="unreadDisplay"> 100</div>
+                    </li>
+                    <li><span class='friend' onclick=chatWith(1)> 18390242582</span>
+                        <div class="unreadDisplay"> 1000</div>
+                    </li> -->
+                    <!--<li><a onclick='chatWith("LiLi")'>LiLi</a></li>-->
+                </ul>
+            </div>
+            <hr>
+            <!--系统消息区-->
+            <ul class="ul_title">系统通知</ul>
+            <div id="systemMsg_div">
+                <ul id="systemMsg">
+                    <!-- <li class="systemMsg_li">
+                        <span class="add_span">18390242582 添加好友</span>
+                        <button class="add_btn">同意</button>
+                    </li>
+                    <li class="systemMsg_li">
+                        <span class="add_span">18390242582 添加好友</span>
+                        <button class="add_btn">同意</button>
+                    </li>
+                    <li class="systemMsg_li">
+                        <span class="add_span">18390242582 添加好友</span>
+                        <button class="add_btn">同意</button>
+                    </li> -->
+                </ul>
+
+            </div>
+            <hr>
+            <!-- 查找添加好友 -->
+            <div id="findFriend_div">
+                <!-- <div style="background-color: orange;"> -->
+                <div id="findFriend_find">
+                    <input type="text" value="请输入名称" id="findFriend_text">
+                    <input type="button" value="查找" id="findFriend_btn">
+                </div>
+                <!-- <ul style="background-color: pink;"> -->
+                <ul id="findFriend_result">
+                    <!-- style="margin-left: -16px;" -->
+                    <!-- <li>
+                        <span class="add_span">18390242582 </span><button class="add_btn">添加</button>
+                    </li>
+
+                    <li>
+                        <span class="add_span">18390242582 </span><button class="add_btn">添加</button>
+                    </li> -->
+
+                    <!-- <p>18390242582</p><button>添加</button>
+                    <p>18390242582</p><button>添加</button> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

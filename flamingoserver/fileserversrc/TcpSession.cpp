@@ -3,7 +3,7 @@
  * zhangyl 2017.03.09
  **/
 #include "TcpSession.h"
-#include "../base/AsyncLog.h"
+#include "../deng.h"
 #include "../net/ProtocolStream.h"
 #include "FileMsg.h"
 

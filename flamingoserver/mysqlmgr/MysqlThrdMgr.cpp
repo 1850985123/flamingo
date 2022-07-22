@@ -1,5 +1,5 @@
 #include "MysqlThrdMgr.h"
-#include "../base/AsyncLog.h"
+#include "../deng.h"
 
 CMysqlThrdMgr::CMysqlThrdMgr(void)
 {

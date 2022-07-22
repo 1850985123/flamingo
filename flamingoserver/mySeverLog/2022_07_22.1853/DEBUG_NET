@@ -1,0 +1,86 @@
+2022-07-22 18:34:00.505628 [DEBUG_NET]: TcpConnection::forceClose()调用 ,session关闭连接,client = 219.134.169.100:53324, fd = 57
+2022-07-22 18:34:00.505637 [DEBUG_NET]: TcpConnection::forceCloseInLoop()调用 ,client = 219.134.169.100:53324, fd = 57
+2022-07-22 18:34:00.505642 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 219.134.169.100:53324, fd = 57, state = kDisconnecting
+2022-07-22 18:36:56.871534 [DEBUG_NET]: TcpConnection::forceClose()调用 ,session关闭连接,client = 219.134.169.100:53773, fd = 58
+2022-07-22 18:36:56.871620 [DEBUG_NET]: TcpConnection::forceCloseInLoop()调用 ,client = 219.134.169.100:53773, fd = 58
+2022-07-22 18:36:56.871638 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 219.134.169.100:53773, fd = 58, state = kDisconnecting
+2022-07-22 18:40:25.942779 [DEBUG_NET]: TcpConnection::forceClose()调用 ,session关闭连接,client = 219.134.169.100:52789, fd = 57
+2022-07-22 18:40:25.942805 [DEBUG_NET]: TcpConnection::forceCloseInLoop()调用 ,client = 219.134.169.100:52789, fd = 57
+2022-07-22 18:40:25.942938 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 219.134.169.100:52789, fd = 57, state = kDisconnecting
+2022-07-22 18:43:00.472756 [DEBUG_NET]: TcpConnection::forceClose()调用 ,session关闭连接,client = 219.134.169.100:51360, fd = 57
+2022-07-22 18:43:00.472766 [DEBUG_NET]: TcpConnection::forceCloseInLoop()调用 ,client = 219.134.169.100:51360, fd = 57
+2022-07-22 18:43:00.472769 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 219.134.169.100:51360, fd = 57, state = kDisconnecting
+2022-07-22 18:43:48.946383 [DEBUG_NET]: TcpConnection::forceClose()调用 ,session关闭连接,client = 219.134.169.100:51372, fd = 57
+2022-07-22 18:43:48.946400 [DEBUG_NET]: TcpConnection::forceCloseInLoop()调用 ,client = 219.134.169.100:51372, fd = 57
+2022-07-22 18:43:48.947430 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 219.134.169.100:51372, fd = 57, state = kDisconnecting
+2022-07-22 18:46:23.419090 [DEBUG_NET]: TcpConnection::forceClose()调用 ,session关闭连接,client = 219.134.169.100:52115, fd = 57
+2022-07-22 18:46:23.419099 [DEBUG_NET]: TcpConnection::forceCloseInLoop()调用 ,client = 219.134.169.100:52115, fd = 57
+2022-07-22 18:46:23.419103 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 219.134.169.100:52115, fd = 57, state = kDisconnecting
+2022-07-22 18:47:37.943803 [DEBUG_NET]: TcpConnection::forceClose()调用 ,session关闭连接,client = 219.134.169.100:51268, fd = 57
+2022-07-22 18:47:37.943833 [DEBUG_NET]: TcpConnection::forceCloseInLoop()调用 ,client = 219.134.169.100:51268, fd = 57
+2022-07-22 18:47:37.943889 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 219.134.169.100:51268, fd = 57, state = kDisconnecting
+2022-07-22 18:49:43.111939 [DEBUG_NET]: TcpConnection::forceClose()调用 ,session关闭连接,client = 219.134.169.100:54072, fd = 57
+2022-07-22 18:49:43.111951 [DEBUG_NET]: TcpConnection::forceCloseInLoop()调用 ,client = 219.134.169.100:54072, fd = 57
+2022-07-22 18:49:43.111990 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 219.134.169.100:54072, fd = 57, state = kDisconnecting
+2022-07-22 18:51:34.619277 [DEBUG_NET]: TcpConnection::forceClose()调用 ,session关闭连接,client = 219.134.169.100:53632, fd = 57
+2022-07-22 18:51:34.619295 [DEBUG_NET]: TcpConnection::forceCloseInLoop()调用 ,client = 219.134.169.100:53632, fd = 57
+2022-07-22 18:51:34.619302 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 219.134.169.100:53632, fd = 57, state = kDisconnecting
+2022-07-22 18:52:54.894200 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 192.241.216.19:51488, fd = 59, state = kConnected
+2022-07-22 18:55:46.123685 [DEBUG_NET]: TcpConnection::forceClose()调用 ,session关闭连接,client = 219.134.169.100:53251, fd = 57
+2022-07-22 18:55:46.123707 [DEBUG_NET]: TcpConnection::forceCloseInLoop()调用 ,client = 219.134.169.100:53251, fd = 57
+2022-07-22 18:55:46.123849 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 219.134.169.100:53251, fd = 57, state = kDisconnecting
+2022-07-22 18:57:34.560372 [DEBUG_NET]: TcpConnection::forceClose()调用 ,session关闭连接,client = 219.134.169.100:53168, fd = 57
+2022-07-22 18:57:34.560383 [DEBUG_NET]: TcpConnection::forceCloseInLoop()调用 ,client = 219.134.169.100:53168, fd = 57
+2022-07-22 18:57:34.560495 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 219.134.169.100:53168, fd = 57, state = kDisconnecting
+2022-07-22 19:01:54.412082 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 219.134.169.100:53491, fd = 59, state = kConnected
+2022-07-22 19:02:47.017499 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 219.134.169.100:53123, fd = 54, state = kConnected
+2022-07-22 19:02:47.018712 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 219.134.169.100:53122, fd = 55, state = kConnected
+2022-07-22 19:02:56.839434 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 219.134.169.100:53135, fd = 56, state = kConnected
+2022-07-22 19:03:17.437391 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 219.134.169.100:53738, fd = 59, state = kConnected
+2022-07-22 19:03:17.438382 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 219.134.169.100:53748, fd = 61, state = kConnected
+2022-07-22 19:03:17.438509 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 219.134.169.100:53746, fd = 60, state = kConnected
+2022-07-22 19:03:17.439902 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 219.134.169.100:50720, fd = 62, state = kConnected
+2022-07-22 19:03:48.916670 [DEBUG_NET]: TcpConnection::forceClose()调用 ,session关闭连接,client = 219.134.169.100:53031, fd = 57
+2022-07-22 19:03:48.916684 [DEBUG_NET]: TcpConnection::forceCloseInLoop()调用 ,client = 219.134.169.100:53031, fd = 57
+2022-07-22 19:03:48.917292 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 219.134.169.100:53031, fd = 57, state = kDisconnecting
+2022-07-22 19:05:18.421885 [DEBUG_NET]: TcpConnection::forceClose()调用 ,session关闭连接,client = 219.134.169.100:53003, fd = 62
+2022-07-22 19:05:18.421895 [DEBUG_NET]: TcpConnection::forceCloseInLoop()调用 ,client = 219.134.169.100:53003, fd = 62
+2022-07-22 19:05:18.421899 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 219.134.169.100:53003, fd = 62, state = kDisconnecting
+2022-07-22 19:05:21.173495 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 219.134.169.100:52868, fd = 60, state = kConnected
+2022-07-22 19:05:21.175397 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 219.134.169.100:52862, fd = 59, state = kConnected
+2022-07-22 19:05:21.176374 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 219.134.169.100:52872, fd = 61, state = kConnected
+2022-07-22 19:05:43.890443 [DEBUG_NET]: TcpConnection::forceClose()调用 ,session关闭连接,client = 219.134.169.100:52409, fd = 57
+2022-07-22 19:05:43.890452 [DEBUG_NET]: TcpConnection::forceCloseInLoop()调用 ,client = 219.134.169.100:52409, fd = 57
+2022-07-22 19:05:43.890465 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 219.134.169.100:52409, fd = 57, state = kDisconnecting
+2022-07-22 19:13:35.084532 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 219.134.169.100:52251, fd = 56, state = kConnected
+2022-07-22 19:13:35.085103 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 219.134.169.100:52248, fd = 55, state = kConnected
+2022-07-22 19:13:35.085601 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 219.134.169.100:52250, fd = 54, state = kConnected
+2022-07-22 20:03:06.791364 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 89.248.163.230:64494, fd = 54, state = kConnected
+2022-07-22 20:10:58.598426 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 89.248.163.230:63724, fd = 54, state = kConnected
+2022-07-22 20:20:34.086699 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 89.248.163.230:63572, fd = 54, state = kConnected
+2022-07-22 20:59:17.394026 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 188.166.215.43:35020, fd = 54, state = kConnected
+2022-07-22 21:17:09.942578 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 89.248.163.230:65063, fd = 54, state = kConnected
+2022-07-22 21:27:56.208370 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 89.248.163.230:65165, fd = 55, state = kConnected
+2022-07-22 23:01:18.966268 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 192.241.216.51:58310, fd = 55, state = kConnected
+2022-07-22 23:20:59.637562 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 167.248.133.46:46588, fd = 54, state = kConnected
+2022-07-22 23:27:37.813493 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 94.102.61.25:51152, fd = 54, state = kConnected
+2022-07-22 23:27:38.245618 [DEBUG_NET]: TcpConnection::forceClose()调用 ,session关闭连接,client = 94.102.61.25:51160, fd = 54
+2022-07-22 23:27:38.245654 [DEBUG_NET]: TcpConnection::forceCloseInLoop()调用 ,client = 94.102.61.25:51160, fd = 54
+2022-07-22 23:27:38.245658 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 94.102.61.25:51160, fd = 54, state = kDisconnecting
+2022-07-22 23:44:08.607487 [DEBUG_NET]: TcpConnection::forceClose()调用 ,session关闭连接,client = 94.102.61.25:56322, fd = 54
+2022-07-22 23:44:08.607496 [DEBUG_NET]: TcpConnection::forceCloseInLoop()调用 ,client = 94.102.61.25:56322, fd = 54
+2022-07-22 23:44:08.607572 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 94.102.61.25:56322, fd = 54, state = kDisconnecting
+2022-07-22 23:55:42.394952 [DEBUG_NET]: TcpConnection::forceClose()调用 ,session关闭连接,client = 219.134.169.100:50809, fd = 60
+2022-07-22 23:55:42.394984 [DEBUG_NET]: TcpConnection::forceCloseInLoop()调用 ,client = 219.134.169.100:50809, fd = 60
+2022-07-22 23:55:42.395020 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 219.134.169.100:50809, fd = 60, state = kDisconnecting
+2022-07-22 23:56:00.931514 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 111.7.96.149:47916, fd = 61, state = kConnected
+2022-07-22 23:56:12.469785 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 111.7.96.149:46116, fd = 61, state = kConnected
+2022-07-22 23:56:36.402416 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 123.160.221.26:21616, fd = 62, state = kConnected
+2022-07-22 23:56:36.489626 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 123.160.221.25:55472, fd = 63, state = kConnected
+2022-07-22 23:56:36.581411 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 123.160.221.24:11592, fd = 62, state = kConnected
+2022-07-22 23:56:46.230138 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 123.160.221.31:42658, fd = 61, state = kConnected
+2022-07-22 23:58:18.493011 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 219.134.169.100:51971, fd = 60, state = kConnected
+2022-07-22 23:58:18.493415 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 219.134.169.100:50303, fd = 54, state = kConnected
+2022-07-22 23:58:18.494735 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 219.134.169.100:50944, fd = 55, state = kConnected
+2022-07-22 23:58:18.496362 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 219.134.169.100:51611, fd = 59, state = kConnected
+2022-07-22 23:58:18.496861 [DEBUG_NET]: TcpConnection::handleClose()调用 ,client = 219.134.169.100:50936, fd = 56, state = kConnected

@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/imgserver.dir/base/AsyncLog/AsyncLog.cpp.o"
+  "CMakeFiles/imgserver.dir/base/ConfigFileReader/ConfigFileReader.cpp.o"
+  "CMakeFiles/imgserver.dir/base/Platform.cpp.o"
+  "CMakeFiles/imgserver.dir/base/Timestamp.cpp.o"
+  "CMakeFiles/imgserver.dir/base/tinyWebserver/log/log.cpp.o"
+  "CMakeFiles/imgserver.dir/net/Acceptor/Acceptor.cpp.o"
+  "CMakeFiles/imgserver.dir/net/ByteBuffer/ByteBuffer.cpp.o"
+  "CMakeFiles/imgserver.dir/net/Channel/Channel.cpp.o"
+  "CMakeFiles/imgserver.dir/net/Connector.cpp.o"
+  "CMakeFiles/imgserver.dir/net/Poller/EpollPoller.cpp.o"
+  "CMakeFiles/imgserver.dir/net/Poller/Poller.cpp.o"
+  "CMakeFiles/imgserver.dir/net/Poller/PollPoller.cpp.o"
+  "CMakeFiles/imgserver.dir/net/Poller/SelectPoller.cpp.o"
+  "CMakeFiles/imgserver.dir/net/ProtocolStream.cpp.o"
+  "CMakeFiles/imgserver.dir/net/EventLoop/EventLoop.cpp.o"
+  "CMakeFiles/imgserver.dir/net/EventLoop/EventLoopThread.cpp.o"
+  "CMakeFiles/imgserver.dir/net/EventLoop/EventLoopThreadPool.cpp.o"
+  "CMakeFiles/imgserver.dir/net/InetAddress.cpp.o"
+  "CMakeFiles/imgserver.dir/net/Sockets/Sockets.cpp.o"
+  "CMakeFiles/imgserver.dir/net/TcpClient/TcpClient.cpp.o"
+  "CMakeFiles/imgserver.dir/net/TcpConnection/TcpConnection.cpp.o"
+  "CMakeFiles/imgserver.dir/net/TcpServer/TcpServer.cpp.o"
+  "CMakeFiles/imgserver.dir/net/Timer.cpp.o"
+  "CMakeFiles/imgserver.dir/net/TimerQueue.cpp.o"
+  "CMakeFiles/imgserver.dir/imgserversrc/main.cpp.o"
+  "CMakeFiles/imgserver.dir/fileserversrc/FileServer.cpp.o"
+  "CMakeFiles/imgserver.dir/fileserversrc/FileSession.cpp.o"
+  "CMakeFiles/imgserver.dir/fileserversrc/FileManager.cpp.o"
+  "CMakeFiles/imgserver.dir/fileserversrc/TcpSession.cpp.o"
+  "CMakeFiles/imgserver.dir/utils/StringUtil.cpp.o"
+  "CMakeFiles/imgserver.dir/utils/URLEncodeUtil.cpp.o"
+  "CMakeFiles/imgserver.dir/utils/MD5.cpp.o"
+  "CMakeFiles/imgserver.dir/utils/DaemonRun.cpp.o"
+  "imgserver.pdb"
+  "imgserver"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/imgserver.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

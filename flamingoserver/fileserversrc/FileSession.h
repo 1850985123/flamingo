@@ -4,7 +4,7 @@
  **/
 
 #pragma once
-#include "../net/ByteBuffer.h"
+
 #include "TcpSession.h"
 
 class FileSession : public TcpSession

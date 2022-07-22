@@ -1,0 +1,687 @@
+[
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/base/AsyncLog/AsyncLog.cpp.o -c /root/deng/flamingo/flamingoserver/base/AsyncLog/AsyncLog.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/base/AsyncLog/AsyncLog.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/base/ConfigFileReader/ConfigFileReader.cpp.o -c /root/deng/flamingo/flamingoserver/base/ConfigFileReader/ConfigFileReader.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/base/ConfigFileReader/ConfigFileReader.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/base/Platform.cpp.o -c /root/deng/flamingo/flamingoserver/base/Platform.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/base/Platform.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/base/Timestamp.cpp.o -c /root/deng/flamingo/flamingoserver/base/Timestamp.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/base/Timestamp.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/base/tinyWebserver/log/log.cpp.o -c /root/deng/flamingo/flamingoserver/base/tinyWebserver/log/log.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/base/tinyWebserver/log/log.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/net/Acceptor/Acceptor.cpp.o -c /root/deng/flamingo/flamingoserver/net/Acceptor/Acceptor.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/Acceptor/Acceptor.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/net/ByteBuffer/ByteBuffer.cpp.o -c /root/deng/flamingo/flamingoserver/net/ByteBuffer/ByteBuffer.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/ByteBuffer/ByteBuffer.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/net/Channel/Channel.cpp.o -c /root/deng/flamingo/flamingoserver/net/Channel/Channel.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/Channel/Channel.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/net/Connector.cpp.o -c /root/deng/flamingo/flamingoserver/net/Connector.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/Connector.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/net/Poller/EpollPoller.cpp.o -c /root/deng/flamingo/flamingoserver/net/Poller/EpollPoller.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/Poller/EpollPoller.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/net/Poller/Poller.cpp.o -c /root/deng/flamingo/flamingoserver/net/Poller/Poller.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/Poller/Poller.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/net/Poller/PollPoller.cpp.o -c /root/deng/flamingo/flamingoserver/net/Poller/PollPoller.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/Poller/PollPoller.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/net/Poller/SelectPoller.cpp.o -c /root/deng/flamingo/flamingoserver/net/Poller/SelectPoller.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/Poller/SelectPoller.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/net/ProtocolStream.cpp.o -c /root/deng/flamingo/flamingoserver/net/ProtocolStream.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/ProtocolStream.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/net/EventLoop/EventLoop.cpp.o -c /root/deng/flamingo/flamingoserver/net/EventLoop/EventLoop.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/EventLoop/EventLoop.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/net/EventLoop/EventLoopThread.cpp.o -c /root/deng/flamingo/flamingoserver/net/EventLoop/EventLoopThread.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/EventLoop/EventLoopThread.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/net/EventLoop/EventLoopThreadPool.cpp.o -c /root/deng/flamingo/flamingoserver/net/EventLoop/EventLoopThreadPool.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/EventLoop/EventLoopThreadPool.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/net/InetAddress.cpp.o -c /root/deng/flamingo/flamingoserver/net/InetAddress.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/InetAddress.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/net/Sockets/Sockets.cpp.o -c /root/deng/flamingo/flamingoserver/net/Sockets/Sockets.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/Sockets/Sockets.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/net/TcpClient/TcpClient.cpp.o -c /root/deng/flamingo/flamingoserver/net/TcpClient/TcpClient.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/TcpClient/TcpClient.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/net/TcpConnection/TcpConnection.cpp.o -c /root/deng/flamingo/flamingoserver/net/TcpConnection/TcpConnection.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/TcpConnection/TcpConnection.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/net/TcpServer/TcpServer.cpp.o -c /root/deng/flamingo/flamingoserver/net/TcpServer/TcpServer.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/TcpServer/TcpServer.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/net/Timer.cpp.o -c /root/deng/flamingo/flamingoserver/net/Timer.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/Timer.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/net/TimerQueue.cpp.o -c /root/deng/flamingo/flamingoserver/net/TimerQueue.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/TimerQueue.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/jsoncpp1.9.0/json_reader.cpp.o -c /root/deng/flamingo/flamingoserver/jsoncpp1.9.0/json_reader.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/jsoncpp1.9.0/json_reader.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/jsoncpp1.9.0/json_value.cpp.o -c /root/deng/flamingo/flamingoserver/jsoncpp1.9.0/json_value.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/jsoncpp1.9.0/json_value.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/jsoncpp1.9.0/json_writer.cpp.o -c /root/deng/flamingo/flamingoserver/jsoncpp1.9.0/json_writer.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/jsoncpp1.9.0/json_writer.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/chatserversrc/main.cpp.o -c /root/deng/flamingo/flamingoserver/chatserversrc/main.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/chatserversrc/main.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/chatserversrc/ChatServer.cpp.o -c /root/deng/flamingo/flamingoserver/chatserversrc/ChatServer.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/chatserversrc/ChatServer.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/chatserversrc/ChatSession.cpp.o -c /root/deng/flamingo/flamingoserver/chatserversrc/ChatSession.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/chatserversrc/ChatSession.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/chatserversrc/UserManager.cpp.o -c /root/deng/flamingo/flamingoserver/chatserversrc/UserManager.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/chatserversrc/UserManager.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/chatserversrc/MsgCacheManager.cpp.o -c /root/deng/flamingo/flamingoserver/chatserversrc/MsgCacheManager.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/chatserversrc/MsgCacheManager.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/chatserversrc/TcpSession.cpp.o -c /root/deng/flamingo/flamingoserver/chatserversrc/TcpSession.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/chatserversrc/TcpSession.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/chatserversrc/MonitorServer/MonitorSession.cpp.o -c /root/deng/flamingo/flamingoserver/chatserversrc/MonitorServer/MonitorSession.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/chatserversrc/MonitorServer/MonitorSession.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/chatserversrc/MonitorServer/MonitorServer.cpp.o -c /root/deng/flamingo/flamingoserver/chatserversrc/MonitorServer/MonitorServer.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/chatserversrc/MonitorServer/MonitorServer.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/chatserversrc/HttpServer/HttpSession.cpp.o -c /root/deng/flamingo/flamingoserver/chatserversrc/HttpServer/HttpSession.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/chatserversrc/HttpServer/HttpSession.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/chatserversrc/HttpServer/HttpServer.cpp.o -c /root/deng/flamingo/flamingoserver/chatserversrc/HttpServer/HttpServer.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/chatserversrc/HttpServer/HttpServer.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/chatserversrc/BussinessLogic.cpp.o -c /root/deng/flamingo/flamingoserver/chatserversrc/BussinessLogic.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/chatserversrc/BussinessLogic.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/mysqlapi/DatabaseMysql.cpp.o -c /root/deng/flamingo/flamingoserver/mysqlapi/DatabaseMysql.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/mysqlapi/DatabaseMysql.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/mysqlapi/Field.cpp.o -c /root/deng/flamingo/flamingoserver/mysqlapi/Field.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/mysqlapi/Field.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/mysqlapi/QueryResult.cpp.o -c /root/deng/flamingo/flamingoserver/mysqlapi/QueryResult.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/mysqlapi/QueryResult.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/mysqlmgr/MysqlManager.cpp.o -c /root/deng/flamingo/flamingoserver/mysqlmgr/MysqlManager.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/mysqlmgr/MysqlManager.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/mysqlmgr/MysqlThrd.cpp.o -c /root/deng/flamingo/flamingoserver/mysqlmgr/MysqlThrd.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/mysqlmgr/MysqlThrd.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/mysqlmgr/MysqlThrdMgr.cpp.o -c /root/deng/flamingo/flamingoserver/mysqlmgr/MysqlThrdMgr.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/mysqlmgr/MysqlThrdMgr.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/mysqlmgr/TaskList.cpp.o -c /root/deng/flamingo/flamingoserver/mysqlmgr/TaskList.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/mysqlmgr/TaskList.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-gcc-5   -I/usr/include/uuid  -g   -o CMakeFiles/chatserver.dir/zlib1.2.11/zutil.c.o   -c /root/deng/flamingo/flamingoserver/zlib1.2.11/zutil.c",
+  "file": "/root/deng/flamingo/flamingoserver/zlib1.2.11/zutil.c"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-gcc-5   -I/usr/include/uuid  -g   -o CMakeFiles/chatserver.dir/zlib1.2.11/uncompr.c.o   -c /root/deng/flamingo/flamingoserver/zlib1.2.11/uncompr.c",
+  "file": "/root/deng/flamingo/flamingoserver/zlib1.2.11/uncompr.c"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-gcc-5   -I/usr/include/uuid  -g   -o CMakeFiles/chatserver.dir/zlib1.2.11/trees.c.o   -c /root/deng/flamingo/flamingoserver/zlib1.2.11/trees.c",
+  "file": "/root/deng/flamingo/flamingoserver/zlib1.2.11/trees.c"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-gcc-5   -I/usr/include/uuid  -g   -o CMakeFiles/chatserver.dir/zlib1.2.11/inftrees.c.o   -c /root/deng/flamingo/flamingoserver/zlib1.2.11/inftrees.c",
+  "file": "/root/deng/flamingo/flamingoserver/zlib1.2.11/inftrees.c"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-gcc-5   -I/usr/include/uuid  -g   -o CMakeFiles/chatserver.dir/zlib1.2.11/inflate.c.o   -c /root/deng/flamingo/flamingoserver/zlib1.2.11/inflate.c",
+  "file": "/root/deng/flamingo/flamingoserver/zlib1.2.11/inflate.c"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-gcc-5   -I/usr/include/uuid  -g   -o CMakeFiles/chatserver.dir/zlib1.2.11/inffast.c.o   -c /root/deng/flamingo/flamingoserver/zlib1.2.11/inffast.c",
+  "file": "/root/deng/flamingo/flamingoserver/zlib1.2.11/inffast.c"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-gcc-5   -I/usr/include/uuid  -g   -o CMakeFiles/chatserver.dir/zlib1.2.11/infback.c.o   -c /root/deng/flamingo/flamingoserver/zlib1.2.11/infback.c",
+  "file": "/root/deng/flamingo/flamingoserver/zlib1.2.11/infback.c"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-gcc-5   -I/usr/include/uuid  -g   -o CMakeFiles/chatserver.dir/zlib1.2.11/gzwrite.c.o   -c /root/deng/flamingo/flamingoserver/zlib1.2.11/gzwrite.c",
+  "file": "/root/deng/flamingo/flamingoserver/zlib1.2.11/gzwrite.c"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-gcc-5   -I/usr/include/uuid  -g   -o CMakeFiles/chatserver.dir/zlib1.2.11/gzread.c.o   -c /root/deng/flamingo/flamingoserver/zlib1.2.11/gzread.c",
+  "file": "/root/deng/flamingo/flamingoserver/zlib1.2.11/gzread.c"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-gcc-5   -I/usr/include/uuid  -g   -o CMakeFiles/chatserver.dir/zlib1.2.11/gzlib.c.o   -c /root/deng/flamingo/flamingoserver/zlib1.2.11/gzlib.c",
+  "file": "/root/deng/flamingo/flamingoserver/zlib1.2.11/gzlib.c"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-gcc-5   -I/usr/include/uuid  -g   -o CMakeFiles/chatserver.dir/zlib1.2.11/gzclose.c.o   -c /root/deng/flamingo/flamingoserver/zlib1.2.11/gzclose.c",
+  "file": "/root/deng/flamingo/flamingoserver/zlib1.2.11/gzclose.c"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-gcc-5   -I/usr/include/uuid  -g   -o CMakeFiles/chatserver.dir/zlib1.2.11/deflate.c.o   -c /root/deng/flamingo/flamingoserver/zlib1.2.11/deflate.c",
+  "file": "/root/deng/flamingo/flamingoserver/zlib1.2.11/deflate.c"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-gcc-5   -I/usr/include/uuid  -g   -o CMakeFiles/chatserver.dir/zlib1.2.11/crc32.c.o   -c /root/deng/flamingo/flamingoserver/zlib1.2.11/crc32.c",
+  "file": "/root/deng/flamingo/flamingoserver/zlib1.2.11/crc32.c"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-gcc-5   -I/usr/include/uuid  -g   -o CMakeFiles/chatserver.dir/zlib1.2.11/compress.c.o   -c /root/deng/flamingo/flamingoserver/zlib1.2.11/compress.c",
+  "file": "/root/deng/flamingo/flamingoserver/zlib1.2.11/compress.c"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-gcc-5   -I/usr/include/uuid  -g   -o CMakeFiles/chatserver.dir/zlib1.2.11/adler32.c.o   -c /root/deng/flamingo/flamingoserver/zlib1.2.11/adler32.c",
+  "file": "/root/deng/flamingo/flamingoserver/zlib1.2.11/adler32.c"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/zlib1.2.11/ZlibUtil.cpp.o -c /root/deng/flamingo/flamingoserver/zlib1.2.11/ZlibUtil.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/zlib1.2.11/ZlibUtil.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/utils/StringUtil.cpp.o -c /root/deng/flamingo/flamingoserver/utils/StringUtil.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/utils/StringUtil.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/utils/URLEncodeUtil.cpp.o -c /root/deng/flamingo/flamingoserver/utils/URLEncodeUtil.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/utils/URLEncodeUtil.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/utils/MD5.cpp.o -c /root/deng/flamingo/flamingoserver/utils/MD5.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/utils/MD5.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/utils/DaemonRun.cpp.o -c /root/deng/flamingo/flamingoserver/utils/DaemonRun.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/utils/DaemonRun.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/chatserversrc/WebsocketServer/websocketsrc/MyWebSocketServer.cpp.o -c /root/deng/flamingo/flamingoserver/chatserversrc/WebsocketServer/websocketsrc/MyWebSocketServer.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/chatserversrc/WebsocketServer/websocketsrc/MyWebSocketServer.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/chatserversrc/WebsocketServer/websocketsrc/MyWebSocketSession.cpp.o -c /root/deng/flamingo/flamingoserver/chatserversrc/WebsocketServer/websocketsrc/MyWebSocketSession.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/chatserversrc/WebsocketServer/websocketsrc/MyWebSocketSession.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/chatserversrc/WebsocketServer/appsrc/BusinessSession.cpp.o -c /root/deng/flamingo/flamingoserver/chatserversrc/WebsocketServer/appsrc/BusinessSession.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/chatserversrc/WebsocketServer/appsrc/BusinessSession.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/chatserversrc/WebsocketServer/websocketsrc/HttpParse.cpp.o -c /root/deng/flamingo/flamingoserver/chatserversrc/WebsocketServer/websocketsrc/HttpParse.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/chatserversrc/WebsocketServer/websocketsrc/HttpParse.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/chatserversrc/WebsocketServer/websocketsrc/httpMsg.cpp.o -c /root/deng/flamingo/flamingoserver/chatserversrc/WebsocketServer/websocketsrc/httpMsg.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/chatserversrc/WebsocketServer/websocketsrc/httpMsg.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/chatserver.dir/chatserversrc/WebsocketServer/websocketsrc/HttpMsgDeal.cpp.o -c /root/deng/flamingo/flamingoserver/chatserversrc/WebsocketServer/websocketsrc/HttpMsgDeal.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/chatserversrc/WebsocketServer/websocketsrc/HttpMsgDeal.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/fileserver.dir/base/AsyncLog/AsyncLog.cpp.o -c /root/deng/flamingo/flamingoserver/base/AsyncLog/AsyncLog.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/base/AsyncLog/AsyncLog.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/fileserver.dir/base/ConfigFileReader/ConfigFileReader.cpp.o -c /root/deng/flamingo/flamingoserver/base/ConfigFileReader/ConfigFileReader.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/base/ConfigFileReader/ConfigFileReader.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/fileserver.dir/base/Platform.cpp.o -c /root/deng/flamingo/flamingoserver/base/Platform.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/base/Platform.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/fileserver.dir/base/Timestamp.cpp.o -c /root/deng/flamingo/flamingoserver/base/Timestamp.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/base/Timestamp.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/fileserver.dir/base/tinyWebserver/log/log.cpp.o -c /root/deng/flamingo/flamingoserver/base/tinyWebserver/log/log.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/base/tinyWebserver/log/log.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/fileserver.dir/net/Acceptor/Acceptor.cpp.o -c /root/deng/flamingo/flamingoserver/net/Acceptor/Acceptor.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/Acceptor/Acceptor.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/fileserver.dir/net/ByteBuffer/ByteBuffer.cpp.o -c /root/deng/flamingo/flamingoserver/net/ByteBuffer/ByteBuffer.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/ByteBuffer/ByteBuffer.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/fileserver.dir/net/Channel/Channel.cpp.o -c /root/deng/flamingo/flamingoserver/net/Channel/Channel.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/Channel/Channel.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/fileserver.dir/net/Connector.cpp.o -c /root/deng/flamingo/flamingoserver/net/Connector.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/Connector.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/fileserver.dir/net/Poller/EpollPoller.cpp.o -c /root/deng/flamingo/flamingoserver/net/Poller/EpollPoller.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/Poller/EpollPoller.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/fileserver.dir/net/Poller/Poller.cpp.o -c /root/deng/flamingo/flamingoserver/net/Poller/Poller.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/Poller/Poller.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/fileserver.dir/net/Poller/PollPoller.cpp.o -c /root/deng/flamingo/flamingoserver/net/Poller/PollPoller.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/Poller/PollPoller.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/fileserver.dir/net/Poller/SelectPoller.cpp.o -c /root/deng/flamingo/flamingoserver/net/Poller/SelectPoller.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/Poller/SelectPoller.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/fileserver.dir/net/ProtocolStream.cpp.o -c /root/deng/flamingo/flamingoserver/net/ProtocolStream.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/ProtocolStream.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/fileserver.dir/net/EventLoop/EventLoop.cpp.o -c /root/deng/flamingo/flamingoserver/net/EventLoop/EventLoop.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/EventLoop/EventLoop.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/fileserver.dir/net/EventLoop/EventLoopThread.cpp.o -c /root/deng/flamingo/flamingoserver/net/EventLoop/EventLoopThread.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/EventLoop/EventLoopThread.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/fileserver.dir/net/EventLoop/EventLoopThreadPool.cpp.o -c /root/deng/flamingo/flamingoserver/net/EventLoop/EventLoopThreadPool.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/EventLoop/EventLoopThreadPool.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/fileserver.dir/net/InetAddress.cpp.o -c /root/deng/flamingo/flamingoserver/net/InetAddress.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/InetAddress.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/fileserver.dir/net/Sockets/Sockets.cpp.o -c /root/deng/flamingo/flamingoserver/net/Sockets/Sockets.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/Sockets/Sockets.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/fileserver.dir/net/TcpClient/TcpClient.cpp.o -c /root/deng/flamingo/flamingoserver/net/TcpClient/TcpClient.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/TcpClient/TcpClient.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/fileserver.dir/net/TcpConnection/TcpConnection.cpp.o -c /root/deng/flamingo/flamingoserver/net/TcpConnection/TcpConnection.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/TcpConnection/TcpConnection.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/fileserver.dir/net/TcpServer/TcpServer.cpp.o -c /root/deng/flamingo/flamingoserver/net/TcpServer/TcpServer.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/TcpServer/TcpServer.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/fileserver.dir/net/Timer.cpp.o -c /root/deng/flamingo/flamingoserver/net/Timer.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/Timer.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/fileserver.dir/net/TimerQueue.cpp.o -c /root/deng/flamingo/flamingoserver/net/TimerQueue.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/TimerQueue.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/fileserver.dir/fileserversrc/main.cpp.o -c /root/deng/flamingo/flamingoserver/fileserversrc/main.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/fileserversrc/main.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/fileserver.dir/fileserversrc/FileServer.cpp.o -c /root/deng/flamingo/flamingoserver/fileserversrc/FileServer.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/fileserversrc/FileServer.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/fileserver.dir/fileserversrc/FileSession.cpp.o -c /root/deng/flamingo/flamingoserver/fileserversrc/FileSession.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/fileserversrc/FileSession.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/fileserver.dir/fileserversrc/FileManager.cpp.o -c /root/deng/flamingo/flamingoserver/fileserversrc/FileManager.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/fileserversrc/FileManager.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/fileserver.dir/fileserversrc/TcpSession.cpp.o -c /root/deng/flamingo/flamingoserver/fileserversrc/TcpSession.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/fileserversrc/TcpSession.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/fileserver.dir/utils/StringUtil.cpp.o -c /root/deng/flamingo/flamingoserver/utils/StringUtil.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/utils/StringUtil.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/fileserver.dir/utils/URLEncodeUtil.cpp.o -c /root/deng/flamingo/flamingoserver/utils/URLEncodeUtil.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/utils/URLEncodeUtil.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/fileserver.dir/utils/MD5.cpp.o -c /root/deng/flamingo/flamingoserver/utils/MD5.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/utils/MD5.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/fileserver.dir/utils/DaemonRun.cpp.o -c /root/deng/flamingo/flamingoserver/utils/DaemonRun.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/utils/DaemonRun.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/imgserver.dir/base/AsyncLog/AsyncLog.cpp.o -c /root/deng/flamingo/flamingoserver/base/AsyncLog/AsyncLog.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/base/AsyncLog/AsyncLog.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/imgserver.dir/base/ConfigFileReader/ConfigFileReader.cpp.o -c /root/deng/flamingo/flamingoserver/base/ConfigFileReader/ConfigFileReader.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/base/ConfigFileReader/ConfigFileReader.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/imgserver.dir/base/Platform.cpp.o -c /root/deng/flamingo/flamingoserver/base/Platform.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/base/Platform.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/imgserver.dir/base/Timestamp.cpp.o -c /root/deng/flamingo/flamingoserver/base/Timestamp.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/base/Timestamp.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/imgserver.dir/base/tinyWebserver/log/log.cpp.o -c /root/deng/flamingo/flamingoserver/base/tinyWebserver/log/log.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/base/tinyWebserver/log/log.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/imgserver.dir/net/Acceptor/Acceptor.cpp.o -c /root/deng/flamingo/flamingoserver/net/Acceptor/Acceptor.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/Acceptor/Acceptor.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/imgserver.dir/net/ByteBuffer/ByteBuffer.cpp.o -c /root/deng/flamingo/flamingoserver/net/ByteBuffer/ByteBuffer.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/ByteBuffer/ByteBuffer.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/imgserver.dir/net/Channel/Channel.cpp.o -c /root/deng/flamingo/flamingoserver/net/Channel/Channel.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/Channel/Channel.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/imgserver.dir/net/Connector.cpp.o -c /root/deng/flamingo/flamingoserver/net/Connector.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/Connector.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/imgserver.dir/net/Poller/EpollPoller.cpp.o -c /root/deng/flamingo/flamingoserver/net/Poller/EpollPoller.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/Poller/EpollPoller.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/imgserver.dir/net/Poller/Poller.cpp.o -c /root/deng/flamingo/flamingoserver/net/Poller/Poller.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/Poller/Poller.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/imgserver.dir/net/Poller/PollPoller.cpp.o -c /root/deng/flamingo/flamingoserver/net/Poller/PollPoller.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/Poller/PollPoller.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/imgserver.dir/net/Poller/SelectPoller.cpp.o -c /root/deng/flamingo/flamingoserver/net/Poller/SelectPoller.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/Poller/SelectPoller.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/imgserver.dir/net/ProtocolStream.cpp.o -c /root/deng/flamingo/flamingoserver/net/ProtocolStream.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/ProtocolStream.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/imgserver.dir/net/EventLoop/EventLoop.cpp.o -c /root/deng/flamingo/flamingoserver/net/EventLoop/EventLoop.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/EventLoop/EventLoop.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/imgserver.dir/net/EventLoop/EventLoopThread.cpp.o -c /root/deng/flamingo/flamingoserver/net/EventLoop/EventLoopThread.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/EventLoop/EventLoopThread.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/imgserver.dir/net/EventLoop/EventLoopThreadPool.cpp.o -c /root/deng/flamingo/flamingoserver/net/EventLoop/EventLoopThreadPool.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/EventLoop/EventLoopThreadPool.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/imgserver.dir/net/InetAddress.cpp.o -c /root/deng/flamingo/flamingoserver/net/InetAddress.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/InetAddress.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/imgserver.dir/net/Sockets/Sockets.cpp.o -c /root/deng/flamingo/flamingoserver/net/Sockets/Sockets.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/Sockets/Sockets.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/imgserver.dir/net/TcpClient/TcpClient.cpp.o -c /root/deng/flamingo/flamingoserver/net/TcpClient/TcpClient.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/TcpClient/TcpClient.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/imgserver.dir/net/TcpConnection/TcpConnection.cpp.o -c /root/deng/flamingo/flamingoserver/net/TcpConnection/TcpConnection.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/TcpConnection/TcpConnection.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/imgserver.dir/net/TcpServer/TcpServer.cpp.o -c /root/deng/flamingo/flamingoserver/net/TcpServer/TcpServer.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/TcpServer/TcpServer.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/imgserver.dir/net/Timer.cpp.o -c /root/deng/flamingo/flamingoserver/net/Timer.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/Timer.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/imgserver.dir/net/TimerQueue.cpp.o -c /root/deng/flamingo/flamingoserver/net/TimerQueue.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/net/TimerQueue.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/imgserver.dir/imgserversrc/main.cpp.o -c /root/deng/flamingo/flamingoserver/imgserversrc/main.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/imgserversrc/main.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/imgserver.dir/fileserversrc/FileServer.cpp.o -c /root/deng/flamingo/flamingoserver/fileserversrc/FileServer.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/fileserversrc/FileServer.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/imgserver.dir/fileserversrc/FileSession.cpp.o -c /root/deng/flamingo/flamingoserver/fileserversrc/FileSession.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/fileserversrc/FileSession.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/imgserver.dir/fileserversrc/FileManager.cpp.o -c /root/deng/flamingo/flamingoserver/fileserversrc/FileManager.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/fileserversrc/FileManager.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/imgserver.dir/fileserversrc/TcpSession.cpp.o -c /root/deng/flamingo/flamingoserver/fileserversrc/TcpSession.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/fileserversrc/TcpSession.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/imgserver.dir/utils/StringUtil.cpp.o -c /root/deng/flamingo/flamingoserver/utils/StringUtil.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/utils/StringUtil.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/imgserver.dir/utils/URLEncodeUtil.cpp.o -c /root/deng/flamingo/flamingoserver/utils/URLEncodeUtil.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/utils/URLEncodeUtil.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/imgserver.dir/utils/MD5.cpp.o -c /root/deng/flamingo/flamingoserver/utils/MD5.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/utils/MD5.cpp"
+},
+{
+  "directory": "/root/deng/flamingo/flamingoserver",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-5    -I/usr/include/uuid   -std=c++0x -g -Wall -O0 -Wno-unused-variable -pthread -g   -o CMakeFiles/imgserver.dir/utils/DaemonRun.cpp.o -c /root/deng/flamingo/flamingoserver/utils/DaemonRun.cpp",
+  "file": "/root/deng/flamingo/flamingoserver/utils/DaemonRun.cpp"
+}
+]

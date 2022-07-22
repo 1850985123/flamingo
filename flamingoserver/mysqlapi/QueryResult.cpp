@@ -1,5 +1,6 @@
 ﻿#include "QueryResult.h"
-#include "../base/AsyncLog.h"
+#include "../deng.h"
+#include <iostream>
 
 QueryResult::QueryResult(MYSQL_RES *result, uint64_t rowCount, uint32_t fieldCount)
  : m_FieldCount(fieldCount), m_RowCount(rowCount)
@@ -8,10 +9,19 @@ QueryResult::QueryResult(MYSQL_RES *result, uint64_t rowCount, uint32_t fieldCou
 	m_CurrentRow = new Field[m_FieldCount];
     //assert(mCurrentRow);
 
+    /* Returns an array of all MYSQL_FIELD structures for a result set.
+        Each structure provides the field definition for one column of the result set. */
     MYSQL_FIELD *fields = mysql_fetch_fields(m_Result);
 
+    // std::cout << "\n 进入 QueryResult" << std::endl;
+
+    //deng: 获取 字段名 和 类型
     for (uint32_t i = 0; i < m_FieldCount; i++)
     {
+        // std::cout << "fields[" << i << "].name = " << fields[i].name <<std::endl;
+        // std::cout << " ,type =  "<< fields[i].type <<std::endl;
+
+
         //TODO: 这个地方要不要判断为NULL？
 		if (fields[i].name != NULL)
         {
@@ -24,8 +34,10 @@ QueryResult::QueryResult(MYSQL_RES *result, uint64_t rowCount, uint32_t fieldCou
             m_vtFieldNames.push_back("");
         }
         
+     
         m_CurrentRow[i].setType(convertNativeType(fields[i].type));
     }
+
 }
 
 QueryResult::~QueryResult(void)
@@ -33,6 +45,7 @@ QueryResult::~QueryResult(void)
     endQuery();
 }
 
+//deng: 得到结果集下一行的内容，并放在 m_CurrentRow 数组中。 
 bool QueryResult::nextRow()
 {
     MYSQL_ROW row;
@@ -40,6 +53,7 @@ bool QueryResult::nextRow()
     if (!m_Result)
         return false;
 
+    //返回结果集的下一行
     row = mysql_fetch_row(m_Result);
     if (!row)
     {
@@ -49,8 +63,13 @@ bool QueryResult::nextRow()
 
     unsigned long int *ulFieldLength;
     ulFieldLength = mysql_fetch_lengths(m_Result);
+
+    //deng； 获得当前这一行的字段的内容。
     for (uint32_t i = 0; i < m_FieldCount; i++)
     {
+
+        // std::cout << "nextRow::  row[" << i << "]= " << row[i] <<std::endl;
+
         if(row[i] == NULL)
         {
             m_CurrentRow[i].m_bNULL = true;

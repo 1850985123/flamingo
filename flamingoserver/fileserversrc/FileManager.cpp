@@ -6,7 +6,7 @@
 
 #include <string.h>
 
-#include "../base/AsyncLog.h"
+#include "../deng.h"
 #include "../base/Platform.h"
 
 

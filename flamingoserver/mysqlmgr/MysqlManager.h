@@ -17,8 +17,8 @@ struct STableField
 		m_strDesc(strIndex)
 	{
 	}
-	std::string m_strName;
-	std::string m_strType;
+	std::string m_strName;  //deng: 段名字
+	std::string m_strType;	//deng: 字段的其他信息集合，如注释、是否默认值、数据类型、是否允许为null等
 	std::string m_strDesc;
 };
 
@@ -29,9 +29,9 @@ struct STableInfo
 		:m_strName(strName)
 	{
 	}
-	std::string m_strName;
-	std::map<std::string,STableField> m_mapField;
-	std::string m_strKeyString;
+	std::string m_strName;  //deng: 表名
+	std::map<std::string,STableField> m_mapField; //deng: 表里的字段集合
+	std::string m_strKeyString; // deng: 表的主键设置string
 };
 
 class CMysqlManager
@@ -54,7 +54,7 @@ private:
 	bool createDB();
 	bool checkTable(const STableInfo& table);
 	bool createTable(const STableInfo& table);
-	bool updateTable(const STableInfo& table);
+	// bool updateTable(const STableInfo& table);
 
 protected:
 	std::shared_ptr<CDatabaseMysql>     m_poConn;

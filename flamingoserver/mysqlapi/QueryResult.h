@@ -55,10 +55,11 @@ class  QueryResult
 
     protected:
         Field *                     m_CurrentRow;
-        uint32_t                    m_FieldCount;
-        uint64_t                    m_RowCount;
         FieldNames                  m_FieldNames;
         std::vector<std::string>    m_vtFieldNames;
 
 		MYSQL_RES*                  m_Result;
+        uint64_t                    m_RowCount;
+        uint32_t                    m_FieldCount;
+        
 };

@@ -2,8 +2,8 @@
 #include <fstream>
 #include <stdarg.h>
 #include <string.h>
-
-#include "../base/AsyncLog.h"
+#include <iostream>
+#include "../deng.h"
 
 CDatabaseMysql::CDatabaseMysql(void)
 {
@@ -31,10 +31,14 @@ bool CDatabaseMysql::initialize(const std::string& host, const std::string& user
     //LOGI << "CDatabaseMysql::Initialize, begin...";
 
     //ClearStoredResults();
+
+    //deng: 程序调用可能会多次初始化
     if (m_bInit)
     {
         mysql_close(m_Mysql);
     }
+    // std::cout << "pwd.c_str() = "<< pwd.c_str()<< std::endl;
+    //  std::cout << "host.c_str() = "<< host.c_str()<< std::endl;
 
     m_Mysql = mysql_init(m_Mysql);
     m_Mysql = mysql_real_connect(m_Mysql, host.c_str(), user.c_str(), pwd.c_str(), dbname.c_str(), 0, NULL, 0);
@@ -50,8 +54,11 @@ bool CDatabaseMysql::initialize(const std::string& host, const std::string& user
 
     if (m_Mysql)
     {
+        // std::cout << "m_Mysql mysql_real_connect 成功"<< std::endl;
+
         //LOGI << "m_Mysql address " << (long)m_Mysql;
         //LOGI << "CDatabaseMysql::Initialize, set names utf8";
+        /* set names utf8 是用于设置编码，可以再在建数据库的时候设置，也可以在创建表的时候设置，或只是对部分字段进行设置 */
         mysql_query(m_Mysql, "set names utf8");
         //mysql_query(m_Mysql, "set names latin1");
         m_bInit = true;
@@ -59,6 +66,8 @@ bool CDatabaseMysql::initialize(const std::string& host, const std::string& user
     }
     else
     {
+        // std::cout << "m_Mysql mysql_real_connect 失败"<< std::endl;
+
         //LOGE << "Could not connect to MySQL database at " << host.c_str()
         //    << ", " << mysql_error(m_Mysql);
         mysql_close(m_Mysql);
@@ -133,7 +142,7 @@ QueryResult* CDatabaseMysql::query(const char* sql)
 
     //  if (!rowCount)
     //  {
-          //LOGI << "call mysql_free_result";
+          //LOGI << "call mysql_free_result";qui
     //      mysql_free_result(result);
     //      return NULL;
     //  }
@@ -238,6 +247,8 @@ bool CDatabaseMysql::execute(const char* sql, uint32_t& uAffectedCount, int& nEr
             }
             return false;
         }
+
+        // deng; mysql_affected_rows 返回影响到的行的数量
         uAffectedCount = static_cast<uint32_t>(mysql_affected_rows(m_Mysql));
     }
 

@@ -1,16 +1,14 @@
 ﻿#include "InetAddress.h"
 #include <string.h>
-#include "../base/AsyncLog.h"
+#include "../deng.h"
 #include "Endian.h"
-#include "Sockets.h"
 
 static const in_addr_t kInaddrAny = INADDR_ANY;
 static const in_addr_t kInaddrLoopback = INADDR_LOOPBACK;
 
 using namespace net;
 
-
-InetAddress::InetAddress(uint16_t port, bool loopbackOnly/* = false*/)
+InetAddress::InetAddress(uint16_t port, bool loopbackOnly /* = false*/)
 {
     memset(&m_addr, 0, sizeof m_addr);
     m_addr.sin_family = AF_INET;
@@ -19,7 +17,7 @@ InetAddress::InetAddress(uint16_t port, bool loopbackOnly/* = false*/)
     m_addr.sin_port = sockets::hostToNetwork16(port);
 }
 
-InetAddress::InetAddress(const std::string& ip, uint16_t port)
+InetAddress::InetAddress(const std::string &ip, uint16_t port)
 {
     memset(&m_addr, 0, sizeof m_addr);
     sockets::fromIpPort(ip.c_str(), port, &m_addr);
@@ -36,6 +34,8 @@ std::string InetAddress::toIp() const
 {
     char buf[32];
     sockets::toIp(buf, sizeof buf, m_addr);
+    // LOG_DEBUG_WS("std::string  = %s", buf);
+    // cout << "std::string  = " << buf << endl;
     return buf;
 }
 
@@ -46,11 +46,11 @@ uint16_t InetAddress::toPort() const
 
 static thread_local char t_resolveBuffer[64 * 1024];
 
-bool InetAddress::resolve(const std::string& hostname, InetAddress* out)
+bool InetAddress::resolve(const std::string &hostname, InetAddress *out)
 {
-    //assert(out != NULL);
+    // assert(out != NULL);
     struct hostent hent;
-    struct hostent* he = NULL;
+    struct hostent *he = NULL;
     int herrno = 0;
     memset(&hent, 0, sizeof(hent));
 
@@ -58,7 +58,7 @@ bool InetAddress::resolve(const std::string& hostname, InetAddress* out)
     int ret = gethostbyname_r(hostname.c_str(), &hent, t_resolveBuffer, sizeof t_resolveBuffer, &he, &herrno);
     if (ret == 0 && he != NULL)
     {
-        out->m_addr.sin_addr = *reinterpret_cast<struct in_addr*>(he->h_addr);
+        out->m_addr.sin_addr = *reinterpret_cast<struct in_addr *>(he->h_addr);
         return true;
     }
 
@@ -68,6 +68,6 @@ bool InetAddress::resolve(const std::string& hostname, InetAddress* out)
     }
 
 #endif
-    //TODO: Windows上重新实现一下
+    // TODO: Windows上重新实现一下
     return false;
 }

@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.box0 {
+    margin: 80px auto;
+    background-color: pink;
+}
+
+.box1 {
+    position: relative;
+    margin-top: 30px;
+}
+
+.box0,
+.box1,
+.box1 .passwordInput,
+.box1 .usernameInput {
+    width: 300px;
+    height: 30px;
+}
+
+.box1 input {
+    border-radius: 8px;
+}
+
+.box1 .usernameInput {
+    color: rgb(152, 158, 158);
+}
+
+.box1 .passwordInput,
+.box1 .usernameInput {
+    border: 1;
+}
+
+.box1 img {
+    position: absolute;
+    left: 270px;
+    top: 2px;
+    width: 30px;
+    height: 30px;
+}
+
+.onfocus {
+    font-size: 20px;
+}
+
+.onblur {
+    font-size: 10px;
+}
+
+.login_btn {
+    position: absolute;
+    left: 20px;
+    top: 2px;
+    width: 65px;
+    height: 30px;
+}
+
+.register_btn {
+    position: absolute;
+    left: 190px;
+    top: 2px;
+    width: 60px;
+    height: 30px;
+}

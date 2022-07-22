@@ -6,7 +6,7 @@
 #define __BUSSINESS_LOGIC_H__
 
 #include <memory>
-#include "../net/TcpConnection.h"
+#include "../deng.h"
 
 using namespace net;
 

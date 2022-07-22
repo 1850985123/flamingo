@@ -5,6 +5,7 @@
 #include "StringUtil.h"
 #include <string.h>
 
+//deng:把以 delimiter 字符串分割的元素放在 v中，分割所有内容
 void StringUtil::split(const std::string& str, std::vector<std::string>& v, const char* delimiter/* = "|"*/)
 {
     if (delimiter == NULL || str.empty())
@@ -33,7 +34,7 @@ void StringUtil::split(const std::string& str, std::vector<std::string>& v, cons
         }
     }
 }
-
+//deng:把以 delimiter 字符串分割的元素放在 v中，从左往右只分割一次
 void StringUtil::cut(const std::string& str, std::vector<std::string>& v, const char* delimiter/* = "|"*/)
 {
     if (delimiter == NULL || str.empty())
@@ -54,6 +55,7 @@ void StringUtil::cut(const std::string& str, std::vector<std::string>& v, const 
         v.push_back(substr2);
 }
 
+//deng:把 str 中所有 toReplaced 字符串替换为 newStr
 std::string& StringUtil::replace(std::string& str, const std::string& toReplaced, const std::string& newStr)
 {
     if (toReplaced.empty() || newStr.empty())
@@ -71,6 +73,7 @@ std::string& StringUtil::replace(std::string& str, const std::string& toReplaced
     return str;
 }
 
+//deng: 去除 字符串 左边的空格
 void StringUtil::trimLeft(std::string& str, char trimmed/* = ' '*/)
 {
     std::string tmp = str;
@@ -85,6 +88,7 @@ void StringUtil::trimLeft(std::string& str, char trimmed/* = ' '*/)
     }
 }
 
+//deng: 去除 字符串 右边的空格
 void StringUtil::trimRight(std::string& str, char trimmed/* = ' '*/)
 {
     std::string tmp = str;
@@ -99,6 +103,7 @@ void StringUtil::trimRight(std::string& str, char trimmed/* = ' '*/)
     }
 }
 
+//deng: 去除 字符串 左边和右边的空格
 void StringUtil::trim(std::string& str, char trimmed/* = ' '*/)
 {
     trimLeft(str, trimmed);

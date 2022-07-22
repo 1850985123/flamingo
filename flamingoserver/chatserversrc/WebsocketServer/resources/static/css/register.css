@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.registerMain {
+    margin: 90px auto;
+    /* background-color: bisque; */
+    width: 300px;
+    height: 300px;
+}
+
+.registerMain input {
+    /* border: none; */
+    width: 235px;
+    height: 28px;
+    border-radius: 8px;
+}
+
+.registerMain tr {
+    position: relative;
+}
+
+.registerMain tr img {
+    position: absolute;
+    left: 255px;
+    top: 13px;
+    width: 30px;
+    height: 30px;
+}
+
+.registerMain .submit_btn {
+    margin-left: 100px;
+    width: 100px;
+    height: 30px;
+}

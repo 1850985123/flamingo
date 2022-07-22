@@ -4,14 +4,13 @@
  **/
 
 #pragma once
-#include "../net/ByteBuffer.h"
-#include "../net/TimerId.h"
+
 #include "TcpSession.h"
 using namespace net;
 
 struct OnlineUserInfo
 {
-    int32_t     userid;
+    int32_t     userid;   //deng: 第几个注册的用户，userid就是几
     std::string username;
     std::string nickname;
     std::string password;
@@ -121,7 +120,10 @@ private:
 
 private:
     int32_t           m_id;                 //session id
-    OnlineUserInfo    m_userinfo;
+
+    OnlineUserInfo    m_userinfo;           //deng; 这些信息是在用户登录的时候记录的。通过 usermane在用户表中找到用户信息，在赋值给 m_userinfo
+
+
     int32_t           m_seq;                //当前Session数据包序列号
     bool              m_isLogin;            //当前Session对应的用户是否已经登录
     time_t            m_lastPackageTime;    //上一次收发包的时间

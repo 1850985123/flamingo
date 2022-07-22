@@ -1,0 +1,13 @@
+2022-07-23 00:11:05.344776 [LOG_DEBUG_WS]: 客户端连接: client = 219.134.169.100:51677, session: 0xc80040c0
+2022-07-23 00:24:27.722883 [LOG_DEBUG_WS]: 客户端连接: client = 8.219.71.118:50046
+2022-07-23 00:24:27.723039 [LOG_DEBUG_WS]: HttpParse::PACKAGE_NOT_ENOUGH
+2022-07-23 00:24:27.732183 [LOG_DEBUG_WS]: 客户端连接: client = 8.219.71.118:50504
+2022-07-23 00:24:27.732356 [LOG_DEBUG_WS]: HttpParse::PACKAGE_NOT_ENOUGH
+2022-07-23 00:24:35.655678 [LOG_DEBUG_WS]: 客户端连接: client = 8.219.71.118:50046, session: 0xc80040c0
+2022-07-23 00:24:35.667698 [LOG_DEBUG_WS]: 客户端连接: client = 8.219.71.118:50504, session: 0xcc003e00
+2022-07-23 00:25:08.015951 [LOG_DEBUG_WS]: 客户端连接: client = 8.219.71.118:47236
+2022-07-23 00:25:08.016738 [LOG_DEBUG_WS]: 请求方法 = GET
+2022-07-23 00:25:08.017049 [LOG_DEBUG_WS]: 请求路径 = http://passport.baidu.com/
+2022-07-23 00:25:08.017297 [LOG_DEBUG_WS]: 文件路径 = /root/deng/flamingo/flamingoserver/chatserversrc/WebsocketServer/resources/statichttp://passport.baidu.com/
+2022-07-23 00:25:08.017794 [LOG_DEBUG_WS]: HttpParse::PARSE_SUCCEED
+2022-07-23 00:25:15.951321 [LOG_DEBUG_WS]: 客户端连接: client = 8.219.71.118:47236, session: 0xc0002690

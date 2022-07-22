@@ -1,0 +1,5 @@
+/root/deng/flamingo/flamingoserver/CMakeFiles/edit_cache.dir
+/root/deng/flamingo/flamingoserver/CMakeFiles/chatserver.dir
+/root/deng/flamingo/flamingoserver/CMakeFiles/fileserver.dir
+/root/deng/flamingo/flamingoserver/CMakeFiles/imgserver.dir
+/root/deng/flamingo/flamingoserver/CMakeFiles/rebuild_cache.dir

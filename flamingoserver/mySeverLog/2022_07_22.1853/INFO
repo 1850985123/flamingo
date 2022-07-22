@@ -1,0 +1,24 @@
+2022-07-22 18:31:46.893428 [INFO]: /*********** 系统启动  *******************/
+2022-07-22 18:31:46.894085 [INFO]: 日志系统 : 异步写日志
+2022-07-22 18:31:46.894845 [INFO]: 数据库系统：地址 = localhost, 用户名 =  root, 密码 = (null), 库名 = flamingo
+2022-07-22 18:31:46.923139 [INFO]: 第 0 个用户信息： userid: 13, username: 1850985133, password: dgy1996133, nickname: deng33, signature: 
+2022-07-22 18:31:46.923203 [INFO]: 第 2 个用户信息： userid: 12, username: 1850985132, password: dgy1996132, nickname: deng32, signature: 
+2022-07-22 18:31:46.923214 [INFO]: 第 4 个用户信息： userid: 11, username: 1850985131, password: dgy1996131, nickname: deng31, signature: 
+2022-07-22 18:31:46.923223 [INFO]: 第 6 个用户信息： userid: 10, username: 1850985130, password: dgy1996130, nickname: deng30, signature: 
+2022-07-22 18:31:46.923787 [INFO]: 第 8 个用户信息： userid: 9, username: 1850985129, password: dgy199619, nickname: deng9, signature: 
+2022-07-22 18:31:46.923816 [INFO]: 第 10 个用户信息： userid: 8, username: 1850985128, password: dgy199618, nickname: deng8, signature: 
+2022-07-22 18:31:46.923825 [INFO]: 第 12 个用户信息： userid: 7, username: deng9, password: dgy199619, nickname: 1850985129, signature: 
+2022-07-22 18:31:46.923834 [INFO]: 第 14 个用户信息： userid: 6, username: deng8, password: dgy199618, nickname: 1850985128, signature: 
+2022-07-22 18:31:46.923842 [INFO]: 第 16 个用户信息： userid: 5, username: 1850985127, password: dgy199617, nickname: deng7, signature: 
+2022-07-22 18:31:46.923850 [INFO]: 第 18 个用户信息： userid: 4, username: 1850985126, password: dgy199616, nickname: deng6, signature: 
+2022-07-22 18:31:46.923858 [INFO]: 第 20 个用户信息： userid: 3, username: 1850985125, password: dgy199615, nickname: yun, signature: 
+2022-07-22 18:31:46.923866 [INFO]: 第 22 个用户信息： userid: 2, username: 1850985124, password: dgy199614, nickname: deng4, signature: 
+2022-07-22 18:31:46.923875 [INFO]: 第 24 个用户信息： userid: 1, username: 1850985123, password: dgy199613, nickname: deng3, signature: 
+2022-07-22 18:31:46.923881 [INFO]: current 最大 userid: 13, current 最大 group id: Oxfffffff
+
+2022-07-22 18:31:46.936800 [INFO]: ChatServer : ip = 0.0.0.0, port = 20000
+2022-07-22 18:31:46.940041 [INFO]: MonitorServer : ip = 0.0.0.0, port = 8888, monitortoken = 123
+2022-07-22 18:31:46.940362 [INFO]: HttpServer : ip = 0.0.0.0, port = 12345
+2022-07-22 18:31:46.943263 [INFO]: MyWebSocketServer : ip = 0.0.0.0, port = 9999
+2022-07-22 18:31:46.943284 [INFO]: 所有服务器初始化完成
+

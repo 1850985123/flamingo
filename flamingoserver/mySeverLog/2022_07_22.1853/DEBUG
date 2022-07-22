@@ -1,0 +1,216 @@
+2022-07-22 18:31:46.938714 [DEBUG]: EventLoop::loop() , EventLoop = 0x4b11cf0  start looping
+2022-07-22 18:31:46.939063 [DEBUG]: EventLoop::loop() , EventLoop = 0xf7feecf0  start looping
+2022-07-22 18:31:46.939361 [DEBUG]: EventLoop::loop() , EventLoop = 0xf77edcf0  start looping
+2022-07-22 18:31:46.939707 [DEBUG]: EventLoop::loop() , EventLoop = 0xf6feccf0  start looping
+2022-07-22 18:31:46.939895 [DEBUG]: EventLoop::loop() , EventLoop = 0xf67ebcf0  start looping
+2022-07-22 18:31:46.940005 [DEBUG]: EventLoop::loop() , EventLoop = 0xf5feacf0  start looping
+2022-07-22 18:31:46.940959 [DEBUG]: EventLoop::loop() , EventLoop = 0xf4fe8cf0  start looping
+2022-07-22 18:31:46.942459 [DEBUG]: EventLoop::loop() , EventLoop = 0xf57e9cf0  start looping
+2022-07-22 18:31:46.942595 [DEBUG]: EventLoop::loop() , EventLoop = 0xd7feecf0  start looping
+2022-07-22 18:31:46.942774 [DEBUG]: EventLoop::loop() , EventLoop = 0xd77edcf0  start looping
+2022-07-22 18:31:46.942932 [DEBUG]: EventLoop::loop() , EventLoop = 0xd6feccf0  start looping
+2022-07-22 18:31:46.943304 [DEBUG]: EventLoop::loop() , EventLoop = 0x85e7a0  start looping
+2022-07-22 18:31:46.944140 [DEBUG]: EventLoop::loop() , EventLoop = 0xd67ebcf0  start looping
+2022-07-22 18:31:54.351718 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#1 ，地址 =  0xdffda0 fd=54
+2022-07-22 18:31:54.353411 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#2 ，地址 =  0xe003c0 fd=55
+2022-07-22 18:31:54.422247 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#3 ，地址 =  0xdf78a0 fd=56
+2022-07-22 18:32:07.343933 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#4 ，地址 =  0xdf8cf0 fd=57
+2022-07-22 18:34:00.505931 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#4
+2022-07-22 18:34:00.506133 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#4 ，地址 =  0xdf8cf0 , fd=57 ,state=kDisconnected
+2022-07-22 18:34:03.937762 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#5 ，地址 =  0xdf8220 fd=57
+2022-07-22 18:34:52.335243 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#6 ，地址 =  0xdf9510 fd=58
+2022-07-22 18:36:56.871742 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#6
+2022-07-22 18:36:56.871785 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#6 ，地址 =  0xdf9510 , fd=58 ,state=kDisconnected
+2022-07-22 18:37:00.358899 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#7 ，地址 =  0xdf9510 fd=58
+2022-07-22 18:40:25.943076 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#5
+2022-07-22 18:40:25.943101 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#5 ，地址 =  0xdf8220 , fd=57 ,state=kDisconnected
+2022-07-22 18:40:30.458835 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#8 ，地址 =  0xdf8220 fd=57
+2022-07-22 18:43:00.472901 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#8
+2022-07-22 18:43:00.473089 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#8 ，地址 =  0xdf8220 , fd=57 ,state=kDisconnected
+2022-07-22 18:43:03.072546 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#9 ，地址 =  0xdf8220 fd=57
+2022-07-22 18:43:48.947530 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#9
+2022-07-22 18:43:48.947781 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#9 ，地址 =  0xdf8220 , fd=57 ,state=kDisconnected
+2022-07-22 18:43:51.757880 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#10 ，地址 =  0xdf8220 fd=57
+2022-07-22 18:46:23.419227 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#10
+2022-07-22 18:46:23.419331 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#10 ，地址 =  0xdf8220 , fd=57 ,state=kDisconnected
+2022-07-22 18:46:26.444892 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#11 ，地址 =  0xdf8220 fd=57
+2022-07-22 18:47:37.944581 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#11
+2022-07-22 18:47:37.944759 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#11 ，地址 =  0xdf8220 , fd=57 ,state=kDisconnected
+2022-07-22 18:47:40.890351 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#12 ，地址 =  0xdf8220 fd=57
+2022-07-22 18:49:43.112849 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#12
+2022-07-22 18:49:43.112949 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#12 ，地址 =  0xdf8220 , fd=57 ,state=kDisconnected
+2022-07-22 18:49:45.790865 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#13 ，地址 =  0xdf8220 fd=57
+2022-07-22 18:51:34.620459 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#13
+2022-07-22 18:51:34.620683 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#13 ，地址 =  0xdf8220 , fd=57 ,state=kDisconnected
+2022-07-22 18:51:37.051500 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#14 ，地址 =  0xdf8220 fd=57
+2022-07-22 18:52:53.778831 [DEBUG]: TcpConnection::TcpConnection 构造, name = ZYL-MYIMMONITORSERVER:0.0.0.0:8888#1 ，地址 =  0xdeffa0 fd=59
+2022-07-22 18:52:54.894450 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-22 18:52:54.894478 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = ZYL-MYIMMONITORSERVER - TcpConnection =  ZYL-MYIMMONITORSERVER:0.0.0.0:8888#1
+2022-07-22 18:52:54.894499 [DEBUG]: TcpConnection::析构 , name =ZYL-MYIMMONITORSERVER:0.0.0.0:8888#1 ，地址 =  0xdeffa0 , fd=59 ,state=kDisconnected
+2022-07-22 18:55:46.123938 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#14
+2022-07-22 18:55:46.123978 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#14 ，地址 =  0xdf8220 , fd=57 ,state=kDisconnected
+2022-07-22 18:55:49.150881 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#15 ，地址 =  0xdf8170 fd=57
+2022-07-22 18:57:34.561600 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#15
+2022-07-22 18:57:34.561672 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#15 ，地址 =  0xdf8170 , fd=57 ,state=kDisconnected
+2022-07-22 18:57:37.728976 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#16 ，地址 =  0xdf8170 fd=57
+2022-07-22 19:01:54.359123 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#17 ，地址 =  0xdf0080 fd=59
+2022-07-22 19:01:54.412035 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-22 19:01:54.412933 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#17
+2022-07-22 19:01:54.412993 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#17 ，地址 =  0xdf0080 , fd=59 ,state=kDisconnected
+2022-07-22 19:02:00.744879 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#18 ，地址 =  0xdf0080 fd=59
+2022-07-22 19:02:00.868058 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#19 ，地址 =  0xdf0600 fd=60
+2022-07-22 19:02:00.869350 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#20 ，地址 =  0xdf0770 fd=61
+2022-07-22 19:02:11.199308 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#21 ，地址 =  0xdf1b30 fd=62
+2022-07-22 19:02:47.017461 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-22 19:02:47.018571 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-22 19:02:47.019243 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#1
+2022-07-22 19:02:47.020495 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#2
+2022-07-22 19:02:47.020658 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#2 ，地址 =  0xe003c0 , fd=55 ,state=kDisconnected
+2022-07-22 19:02:47.020513 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#1 ，地址 =  0xdffda0 , fd=54 ,state=kDisconnected
+2022-07-22 19:02:56.839396 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-22 19:02:56.839683 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#3
+2022-07-22 19:02:56.839711 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#3 ，地址 =  0xdf78a0 , fd=56 ,state=kDisconnected
+2022-07-22 19:03:17.437573 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#18
+2022-07-22 19:03:17.438453 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-22 19:03:17.438466 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#18 ，地址 =  0xdf0080 , fd=59 ,state=kDisconnected
+2022-07-22 19:03:17.438560 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-22 19:03:17.438580 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#20
+2022-07-22 19:03:17.438618 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#20 ，地址 =  0xdf0770 , fd=61 ,state=kDisconnected
+2022-07-22 19:03:17.439395 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-22 19:03:17.439464 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#19
+2022-07-22 19:03:17.439713 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#19 ，地址 =  0xdf0600 , fd=60 ,state=kDisconnected
+2022-07-22 19:03:17.439994 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-22 19:03:17.440017 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#21
+2022-07-22 19:03:17.440037 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#21 ，地址 =  0xdf1b30 , fd=62 ,state=kDisconnected
+2022-07-22 19:03:48.851780 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#22 ，地址 =  0xdf7d90 fd=54
+2022-07-22 19:03:48.851900 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#23 ，地址 =  0xdf7f00 fd=55
+2022-07-22 19:03:48.918975 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#16
+2022-07-22 19:03:48.919180 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#16 ，地址 =  0xdf8170 , fd=57 ,state=kDisconnected
+2022-07-22 19:03:48.938888 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#24 ，地址 =  0xdf8170 fd=56
+2022-07-22 19:03:52.384841 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#25 ，地址 =  0xdf79e0 fd=57
+2022-07-22 19:04:02.010606 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#26 ，地址 =  0xdf0490 fd=59
+2022-07-22 19:04:02.106224 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#27 ，地址 =  0xdf0600 fd=60
+2022-07-22 19:04:02.113716 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#28 ，地址 =  0xdf1ee0 fd=61
+2022-07-22 19:04:05.786550 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#29 ，地址 =  0xdf26b0 fd=62
+2022-07-22 19:05:18.422681 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#29
+2022-07-22 19:05:18.422808 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#29 ，地址 =  0xdf26b0 , fd=62 ,state=kDisconnected
+2022-07-22 19:05:21.173455 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-22 19:05:21.173775 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#27
+2022-07-22 19:05:21.173836 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#27 ，地址 =  0xdf0600 , fd=60 ,state=kDisconnected
+2022-07-22 19:05:21.175363 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-22 19:05:21.176266 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#26
+2022-07-22 19:05:21.176339 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-22 19:05:21.176616 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#28
+2022-07-22 19:05:21.176653 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#28 ，地址 =  0xdf1ee0 , fd=61 ,state=kDisconnected
+2022-07-22 19:05:21.176758 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#26 ，地址 =  0xdf0490 , fd=59 ,state=kDisconnected
+2022-07-22 19:05:43.890607 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#25
+2022-07-22 19:05:43.890635 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#25 ，地址 =  0xdf79e0 , fd=57 ,state=kDisconnected
+2022-07-22 19:06:17.537640 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#30 ，地址 =  0xdf79e0 fd=57
+2022-07-22 19:13:35.084488 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-22 19:13:35.085020 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-22 19:13:35.085539 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-22 19:13:35.086603 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#24
+2022-07-22 19:13:35.086721 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#24 ，地址 =  0xdf8170 , fd=56 ,state=kDisconnected
+2022-07-22 19:13:35.086815 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#23
+2022-07-22 19:13:35.087473 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#23 ，地址 =  0xdf7f00 , fd=55 ,state=kDisconnected
+2022-07-22 19:13:35.088775 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#22
+2022-07-22 19:13:35.088880 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#22 ，地址 =  0xdf7d90 , fd=54 ,state=kDisconnected
+2022-07-22 20:01:56.094592 [DEBUG]: TcpConnection::TcpConnection 构造, name = ZYL-MYHTTPSERVER:0.0.0.0:12345#1 ，地址 =  0xdf8170 fd=54
+2022-07-22 20:03:06.791642 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-22 20:03:06.791702 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = ZYL-MYHTTPSERVER - TcpConnection =  ZYL-MYHTTPSERVER:0.0.0.0:12345#1
+2022-07-22 20:03:06.791812 [DEBUG]: TcpConnection::析构 , name =ZYL-MYHTTPSERVER:0.0.0.0:12345#1 ，地址 =  0xdf8170 , fd=54 ,state=kDisconnected
+2022-07-22 20:10:58.255484 [DEBUG]: TcpConnection::TcpConnection 构造, name = ZYL-MYIMMONITORSERVER:0.0.0.0:8888#2 ，地址 =  0xdf8170 fd=54
+2022-07-22 20:10:58.598685 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-22 20:10:58.598730 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = ZYL-MYIMMONITORSERVER - TcpConnection =  ZYL-MYIMMONITORSERVER:0.0.0.0:8888#2
+2022-07-22 20:10:58.598780 [DEBUG]: TcpConnection::析构 , name =ZYL-MYIMMONITORSERVER:0.0.0.0:8888#2 ，地址 =  0xdf8170 , fd=54 ,state=kDisconnected
+2022-07-22 20:16:38.646335 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#31 ，地址 =  0xdf8170 fd=54
+2022-07-22 20:20:34.087427 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-22 20:20:34.087479 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#31
+2022-07-22 20:20:34.087501 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#31 ，地址 =  0xdf8170 , fd=54 ,state=kDisconnected
+2022-07-22 20:58:29.360130 [DEBUG]: TcpConnection::TcpConnection 构造, name = FLAMINGO-SERVER:0.0.0.0:20000#1 ，地址 =  0xdf8170 fd=54
+2022-07-22 20:58:29.360334 [DEBUG]: ChatServer::onConnected 增加客户端连接，client = 188.166.215.43:35020, 当前 session 数量 = 1
+2022-07-22 20:59:17.393987 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-22 20:59:17.394228 [DEBUG]: ChatServer::onDisconnected 断开 客户端连接，clietn = 188.166.215.43:35020, 当前 session 数量 = 0
+2022-07-22 20:59:17.394276 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = FLAMINGO-SERVER - TcpConnection =  FLAMINGO-SERVER:0.0.0.0:20000#1
+2022-07-22 20:59:17.394298 [DEBUG]: TcpConnection::析构 , name =FLAMINGO-SERVER:0.0.0.0:20000#1 ，地址 =  0xdf8170 , fd=54 ,state=kDisconnected
+2022-07-22 21:17:09.471787 [DEBUG]: TcpConnection::TcpConnection 构造, name = ZYL-MYIMMONITORSERVER:0.0.0.0:8888#3 ，地址 =  0xdf8170 fd=54
+2022-07-22 21:17:09.942642 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-22 21:17:09.942654 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = ZYL-MYIMMONITORSERVER - TcpConnection =  ZYL-MYIMMONITORSERVER:0.0.0.0:8888#3
+2022-07-22 21:17:09.942850 [DEBUG]: TcpConnection::析构 , name =ZYL-MYIMMONITORSERVER:0.0.0.0:8888#3 ，地址 =  0xdf8170 , fd=54 ,state=kDisconnected
+2022-07-22 21:20:44.994959 [DEBUG]: TcpConnection::TcpConnection 构造, name = ZYL-MYIMMONITORSERVER:0.0.0.0:8888#4 ，地址 =  0xdf8170 fd=54
+2022-07-22 21:21:43.607483 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#32 ，地址 =  0xdf8610 fd=55
+2022-07-22 21:27:56.209525 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-22 21:27:56.209656 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#32
+2022-07-22 21:27:56.209710 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#32 ，地址 =  0xdf8610 , fd=55 ,state=kDisconnected
+2022-07-22 23:01:16.231186 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#33 ，地址 =  0xdf8610 fd=55
+2022-07-22 23:01:18.966195 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-22 23:01:18.967120 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#33
+2022-07-22 23:01:18.967218 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#33 ，地址 =  0xdf8610 , fd=55 ,state=kDisconnected
+2022-07-22 23:20:59.637702 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = ZYL-MYIMMONITORSERVER - TcpConnection =  ZYL-MYIMMONITORSERVER:0.0.0.0:8888#4
+2022-07-22 23:20:59.637668 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-22 23:20:59.637775 [DEBUG]: TcpConnection::析构 , name =ZYL-MYIMMONITORSERVER:0.0.0.0:8888#4 ，地址 =  0xdf8170 , fd=54 ,state=kDisconnected
+2022-07-22 23:27:37.811259 [DEBUG]: TcpConnection::TcpConnection 构造, name = FLAMINGO-SERVER:0.0.0.0:20000#2 ，地址 =  0xdf8610 fd=54
+2022-07-22 23:27:37.811443 [DEBUG]: ChatServer::onConnected 增加客户端连接，client = 94.102.61.25:51152, 当前 session 数量 = 1
+2022-07-22 23:27:37.813587 [DEBUG]: ChatServer::onDisconnected 断开 客户端连接，clietn = 94.102.61.25:51152, 当前 session 数量 = 0
+2022-07-22 23:27:37.813671 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = FLAMINGO-SERVER - TcpConnection =  FLAMINGO-SERVER:0.0.0.0:20000#2
+2022-07-22 23:27:37.813655 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-22 23:27:37.813724 [DEBUG]: TcpConnection::析构 , name =FLAMINGO-SERVER:0.0.0.0:20000#2 ，地址 =  0xdf8610 , fd=54 ,state=kDisconnected
+2022-07-22 23:27:38.244485 [DEBUG]: TcpConnection::TcpConnection 构造, name = FLAMINGO-SERVER:0.0.0.0:20000#3 ，地址 =  0xdf8610 fd=54
+2022-07-22 23:27:38.244577 [DEBUG]: ChatServer::onConnected 增加客户端连接，client = 94.102.61.25:51160, 当前 session 数量 = 1
+2022-07-22 23:27:38.245557 [DEBUG]: 数据未压缩, ChatSession::onRead() 非法数据包, compresssize = 905969664, originsize = 13174116, 关闭 TcpConnection, client: 94.102.61.25:51160
+2022-07-22 23:27:38.245737 [DEBUG]: ChatServer::onDisconnected 断开 客户端连接，clietn = 94.102.61.25:51160, 当前 session 数量 = 0
+2022-07-22 23:27:38.245772 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = FLAMINGO-SERVER - TcpConnection =  FLAMINGO-SERVER:0.0.0.0:20000#3
+2022-07-22 23:27:38.245814 [DEBUG]: TcpConnection::析构 , name =FLAMINGO-SERVER:0.0.0.0:20000#3 ，地址 =  0xdf8610 , fd=54 ,state=kDisconnected
+2022-07-22 23:44:08.607238 [DEBUG]: TcpConnection::TcpConnection 构造, name = FLAMINGO-SERVER:0.0.0.0:20000#4 ，地址 =  0xdf8610 fd=54
+2022-07-22 23:44:08.607327 [DEBUG]: ChatServer::onConnected 增加客户端连接，client = 94.102.61.25:56322, 当前 session 数量 = 1
+2022-07-22 23:44:08.607473 [DEBUG]: 数据未压缩, ChatSession::onRead() 非法数据包, compresssize = 1414809632, originsize = 790647877, 关闭 TcpConnection, client: 94.102.61.25:56322
+2022-07-22 23:44:08.607640 [DEBUG]: ChatServer::onDisconnected 断开 客户端连接，clietn = 94.102.61.25:56322, 当前 session 数量 = 0
+2022-07-22 23:44:08.607836 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = FLAMINGO-SERVER - TcpConnection =  FLAMINGO-SERVER:0.0.0.0:20000#4
+2022-07-22 23:44:08.607917 [DEBUG]: TcpConnection::析构 , name =FLAMINGO-SERVER:0.0.0.0:20000#4 ，地址 =  0xdf8610 , fd=54 ,state=kDisconnected
+2022-07-22 23:54:39.024245 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#34 ，地址 =  0xdf8610 fd=54
+2022-07-22 23:54:54.243496 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#35 ，地址 =  0xdf2bf0 fd=55
+2022-07-22 23:54:54.251007 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#36 ，地址 =  0xdf2d90 fd=56
+2022-07-22 23:54:58.790796 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#37 ，地址 =  0xdf2f00 fd=59
+2022-07-22 23:55:26.159157 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#38 ，地址 =  0xdfffd0 fd=60
+2022-07-22 23:55:42.395692 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#38
+2022-07-22 23:55:42.395771 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#38 ，地址 =  0xdfffd0 , fd=60 ,state=kDisconnected
+2022-07-22 23:55:42.567974 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#39 ，地址 =  0xdfffd0 fd=60
+2022-07-22 23:55:59.180380 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#40 ，地址 =  0xe00140 fd=61
+2022-07-22 23:56:00.931758 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-22 23:56:00.931791 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#40
+2022-07-22 23:56:00.931823 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#40 ，地址 =  0xe00140 , fd=61 ,state=kDisconnected
+2022-07-22 23:56:10.969531 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#41 ，地址 =  0xe00140 fd=61
+2022-07-22 23:56:12.470017 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-22 23:56:12.470138 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#41
+2022-07-22 23:56:12.470169 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#41 ，地址 =  0xe00140 , fd=61 ,state=kDisconnected
+2022-07-22 23:56:36.265536 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#42 ，地址 =  0xe00140 fd=61
+2022-07-22 23:56:36.366395 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#43 ，地址 =  0xdf3620 fd=62
+2022-07-22 23:56:36.402375 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-22 23:56:36.402658 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#43
+2022-07-22 23:56:36.402691 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#43 ，地址 =  0xdf3620 , fd=62 ,state=kDisconnected
+2022-07-22 23:56:36.453751 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#44 ，地址 =  0xdf3620 fd=62
+2022-07-22 23:56:36.455087 [DEBUG]: TcpConnection::TcpConnection 构造, name = MY-WEBSOCKET-SERVER:0.0.0.0:9999#45 ，地址 =  0xdf3c40 fd=63
+2022-07-22 23:56:36.489558 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-22 23:56:36.489828 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#45
+2022-07-22 23:56:36.489856 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#45 ，地址 =  0xdf3c40 , fd=63 ,state=kDisconnected
+2022-07-22 23:56:36.581354 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-22 23:56:36.581615 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#44
+2022-07-22 23:56:36.581667 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#44 ，地址 =  0xdf3620 , fd=62 ,state=kDisconnected
+2022-07-22 23:56:46.230056 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-22 23:56:46.230844 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#42
+2022-07-22 23:56:46.230949 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#42 ，地址 =  0xe00140 , fd=61 ,state=kDisconnected
+2022-07-22 23:58:18.494304 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-22 23:58:18.494374 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#39
+2022-07-22 23:58:18.495012 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-22 23:58:18.495038 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#39 ，地址 =  0xdfffd0 , fd=60 ,state=kDisconnected
+2022-07-22 23:58:18.494561 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-22 23:58:18.494590 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#34
+2022-07-22 23:58:18.495456 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#35
+2022-07-22 23:58:18.495538 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#35 ，地址 =  0xdf2bf0 , fd=55 ,state=kDisconnected
+2022-07-22 23:58:18.495655 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#34 ，地址 =  0xdf8610 , fd=54 ,state=kDisconnected
+2022-07-22 23:58:18.496425 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-22 23:58:18.496453 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#37
+2022-07-22 23:58:18.496476 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#37 ，地址 =  0xdf2f00 , fd=59 ,state=kDisconnected
+2022-07-22 23:58:18.497055 [DEBUG]: TcpConnection::handleRead : 客户端断开连接，导致读取数据为 n == 0 
+2022-07-22 23:58:18.497131 [DEBUG]: TcpServer::removeConnectionInLoop 服务器 = MY-WEBSOCKET-SERVER - TcpConnection =  MY-WEBSOCKET-SERVER:0.0.0.0:9999#36
+2022-07-22 23:58:18.497217 [DEBUG]: TcpConnection::析构 , name =MY-WEBSOCKET-SERVER:0.0.0.0:9999#36 ，地址 =  0xdf2d90 , fd=56 ,state=kDisconnected

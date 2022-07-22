@@ -1,0 +1,4 @@
+2022-07-23 00:11:05.343669 [ERROR]: file = /root/deng/flamingo/flamingoserver/net/TcpConnection/TcpConnection.cpp, line = 423 :"TcpConnection::handleError()调用 ,client = 219.134.169.100:51677, fd = 57, state = kConnected"
+2022-07-23 00:11:05.344580 [ERROR]: file = /root/deng/flamingo/flamingoserver/net/TcpConnection/TcpConnection.cpp, line = 424 :"错误信息::MY-WEBSOCKET-SERVER:0.0.0.0:9999#30 handleError [110] - SO_ERROR = Connection timed out"
+2022-07-23 00:24:54.632762 [ERROR]: file = /root/deng/flamingo/flamingoserver/net/TcpConnection/TcpConnection.cpp, line = 423 :"TcpConnection::handleError()调用 ,client = 8.219.71.118:56804, fd = 54, state = kConnected"
+2022-07-23 00:24:54.632799 [ERROR]: file = /root/deng/flamingo/flamingoserver/net/TcpConnection/TcpConnection.cpp, line = 424 :"错误信息::ZYL-MYIMMONITORSERVER:0.0.0.0:8888#6 handleError [104] - SO_ERROR = Connection reset by peer"

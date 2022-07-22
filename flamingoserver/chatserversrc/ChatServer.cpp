@@ -1,11 +1,11 @@
 /**
- *  ·şÎñÆ÷Ö÷·şÎñÀà£¬IMServer.cpp
+ *  æœåŠ¡å™¨ä¸»æœåŠ¡ç±»ï¼ŒIMServer.cpp
  *  zhangyl 2017.03.09
  **/
 #include "ChatServer.h"
 
 #include "../net/InetAddress.h"
-#include "../base/AsyncLog.h"
+#include "../deng.h"
 #include "../base/Singleton.h"
 #include "ChatSession.h"
 #include "UserManager.h"
@@ -20,9 +20,9 @@ bool ChatServer::init(const char* ip, short port, EventLoop* loop)
     InetAddress addr(ip, port);
     m_server.reset(new TcpServer(loop, addr, "FLAMINGO-SERVER", TcpServer::kReusePort));
     m_server->setConnectionCallback(std::bind(&ChatServer::onConnected, this, std::placeholders::_1));
-    //Æô¶¯ÕìÌı
+    //å¯åŠ¨ä¾¦å¬
     m_server->start(6);
-
+  
     return true;
 }
 
@@ -46,13 +46,16 @@ void ChatServer::onConnected(std::shared_ptr<TcpConnection> conn)
 {
     if (conn->connected())
     {
-        LOGD("client connected: %s", conn->peerAddress().toIpPort().c_str());
-        ++m_sessionId;
+        // LOGD("client connected: %s", conn->peerAddress().toIpPort().c_str());
+        
+        // ++m_sessionId;  //deng: 2022_7_9 å¥½åƒæ„ä¹‰ä¸å¤§
         std::shared_ptr<ChatSession> spSession(new ChatSession(conn, m_sessionId));
         conn->setMessageCallback(std::bind(&ChatSession::onRead, spSession.get(), std::placeholders::_1, std::placeholders::_2, std::placeholders::_3));       
 
         std::lock_guard<std::mutex> guard(m_sessionMutex);
         m_sessions.push_back(spSession);
+
+        LOG_DEBUG("ChatServer::onConnected å¢åŠ å®¢æˆ·ç«¯è¿æ¥ï¼Œclient = %s, å½“å‰ session æ•°é‡ = %d", conn->peerAddress().toIpPort().c_str(), m_sessions.size());
     }
     else
     {
@@ -62,11 +65,11 @@ void ChatServer::onConnected(std::shared_ptr<TcpConnection> conn)
 
 void ChatServer::onDisconnected(const std::shared_ptr<TcpConnection>& conn)
 {
-    //ÊÇ·ñÓĞÓÃ»§ÏÂÏß
+    //æ˜¯å¦æœ‰ç”¨æˆ·ä¸‹çº¿
     //bool bUserOffline = false;
     UserManager& userManager = Singleton<UserManager>::Instance();
 
-    //TODO: ÕâÑùµÄ´úÂëÂß¼­Ì«»ìÂÒ£¬ĞèÒªÓÅ»¯
+    //TODO: è¿™æ ·çš„ä»£ç é€»è¾‘å¤ªæ··ä¹±ï¼Œéœ€è¦ä¼˜åŒ–
     std::lock_guard<std::mutex> guard(m_sessionMutex);
     for (auto iter = m_sessions.begin(); iter != m_sessions.end(); ++iter)
     {
@@ -76,13 +79,13 @@ void ChatServer::onDisconnected(const std::shared_ptr<TcpConnection>& conn)
             break;
         }
         
-        //Í¨¹ı±È¶Ôconnection¶ÔÏóÕÒµ½¶ÔÓ¦µÄsession
+        //é€šè¿‡æ¯”å¯¹connectionå¯¹è±¡æ‰¾åˆ°å¯¹åº”çš„session
         if ((*iter)->getConnectionPtr() == conn)
         {
-            //¸ÃSession²»ÊÇÖ®Ç°±»ÌßÏÂÏßµÄÓĞĞ§Session£¬²ÅÈÏÎªÊÇÕı³£ÏÂÏß£¬²Å¸øÆäºÃÓÑÍÆËÍÆäÏÂÏßÏûÏ¢
+            //è¯¥Sessionä¸æ˜¯ä¹‹å‰è¢«è¸¢ä¸‹çº¿çš„æœ‰æ•ˆSessionï¼Œæ‰è®¤ä¸ºæ˜¯æ­£å¸¸ä¸‹çº¿ï¼Œæ‰ç»™å…¶å¥½å‹æ¨é€å…¶ä¸‹çº¿æ¶ˆæ¯
             if ((*iter)->isSessionValid())
             { 
-                //±éÀúÆäÔÚÏßºÃÓÑ£¬¸øÆäºÃÓÑÍÆËÍÆäÏÂÏßÏûÏ¢
+                //éå†å…¶åœ¨çº¿å¥½å‹ï¼Œç»™å…¶å¥½å‹æ¨é€å…¶ä¸‹çº¿æ¶ˆæ¯
                 std::list<User> friends;
                 int32_t offlineUserId = (*iter)->getUserId();
                 userManager.getFriendInfoByUserId(offlineUserId, friends);
@@ -90,7 +93,7 @@ void ChatServer::onDisconnected(const std::shared_ptr<TcpConnection>& conn)
                 {
                     for (auto& iter3 : m_sessions)
                     {
-                        //¸ÃºÃÓÑÊÇ·ñÔÚÏß£¨ÔÚÏß»á´æÔÚsession£©
+                        //è¯¥å¥½å‹æ˜¯å¦åœ¨çº¿ï¼ˆåœ¨çº¿ä¼šå­˜åœ¨sessionï¼‰
                         if (iter2.userid == iter3->getUserId())
                         {
                             iter3->sendUserStatusChangeMsg(offlineUserId, 2);
@@ -105,12 +108,15 @@ void ChatServer::onDisconnected(const std::shared_ptr<TcpConnection>& conn)
                 LOGI("Session is invalid, userid=%d", (*iter)->getUserId());
             }
             
-            //Í£µô¸ÃSessionµÄµôÏß¼ì²â
+            //åœæ‰è¯¥Sessionçš„æ‰çº¿æ£€æµ‹
             //(*iter)->DisableHeartbaetCheck();
-            //ÓÃ»§ÏÂÏß
+            //ç”¨æˆ·ä¸‹çº¿
             m_sessions.erase(iter);
             //bUserOffline = true;
-            LOGI("client disconnected: %s", conn->peerAddress().toIpPort().c_str());
+
+            // m_sessionId--;//deng: add 2022_7_9;
+            LOG_DEBUG("ChatServer::onDisconnected æ–­å¼€ å®¢æˆ·ç«¯è¿æ¥ï¼Œclietn = %s, å½“å‰ session æ•°é‡ = %d", conn->peerAddress().toIpPort().c_str(), m_sessions.size());
+            // LOGI("client disconnected: %s", conn->peerAddress().toIpPort().c_str());
             break;
         }
     }
@@ -145,7 +151,7 @@ bool ChatServer::getSessionsByUserId(std::list<std::shared_ptr<ChatSession>>& se
 {
     std::lock_guard<std::mutex> guard(m_sessionMutex);
     std::shared_ptr<ChatSession> tmpSession;
-    for (const auto& iter : m_sessions)
+    for (const auto& iter :  m_sessions)
     {
         tmpSession = iter;
         if (iter->getUserId() == userid)
@@ -182,7 +188,7 @@ int32_t ChatServer::getUserClientTypeByUserId(int32_t userid)
         if (iter->getUserId() == userid)
         {   
             clientType = iter->getUserClientType();
-            //µçÄÔÔÚÏßÖ±½Ó·µ»ØµçÄÔÔÚÏß×´Ì¬
+            //ç”µè„‘åœ¨çº¿ç›´æ¥è¿”å›ç”µè„‘åœ¨çº¿çŠ¶æ€
             if (clientType == CLIENT_TYPE_PC)
                 return clientType;
             else if (clientType == CLIENT_TYPE_ANDROID || clientType == CLIENT_TYPE_IOS)
@@ -190,7 +196,7 @@ int32_t ChatServer::getUserClientTypeByUserId(int32_t userid)
         }
     }
 
-    //Ö»ÓĞÊÖ»úÔÚÏß²Å·µ»ØÊÖ»úÔÚÏß×´Ì¬
+    //åªæœ‰æ‰‹æœºåœ¨çº¿æ‰è¿”å›æ‰‹æœºåœ¨çº¿çŠ¶æ€
     if (bMobileOnline)
         return clientType;
 

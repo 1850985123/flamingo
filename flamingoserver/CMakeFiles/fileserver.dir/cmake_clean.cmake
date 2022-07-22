@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/fileserver.dir/base/AsyncLog/AsyncLog.cpp.o"
+  "CMakeFiles/fileserver.dir/base/ConfigFileReader/ConfigFileReader.cpp.o"
+  "CMakeFiles/fileserver.dir/base/Platform.cpp.o"
+  "CMakeFiles/fileserver.dir/base/Timestamp.cpp.o"
+  "CMakeFiles/fileserver.dir/base/tinyWebserver/log/log.cpp.o"
+  "CMakeFiles/fileserver.dir/net/Acceptor/Acceptor.cpp.o"
+  "CMakeFiles/fileserver.dir/net/ByteBuffer/ByteBuffer.cpp.o"
+  "CMakeFiles/fileserver.dir/net/Channel/Channel.cpp.o"
+  "CMakeFiles/fileserver.dir/net/Connector.cpp.o"
+  "CMakeFiles/fileserver.dir/net/Poller/EpollPoller.cpp.o"
+  "CMakeFiles/fileserver.dir/net/Poller/Poller.cpp.o"
+  "CMakeFiles/fileserver.dir/net/Poller/PollPoller.cpp.o"
+  "CMakeFiles/fileserver.dir/net/Poller/SelectPoller.cpp.o"
+  "CMakeFiles/fileserver.dir/net/ProtocolStream.cpp.o"
+  "CMakeFiles/fileserver.dir/net/EventLoop/EventLoop.cpp.o"
+  "CMakeFiles/fileserver.dir/net/EventLoop/EventLoopThread.cpp.o"
+  "CMakeFiles/fileserver.dir/net/EventLoop/EventLoopThreadPool.cpp.o"
+  "CMakeFiles/fileserver.dir/net/InetAddress.cpp.o"
+  "CMakeFiles/fileserver.dir/net/Sockets/Sockets.cpp.o"
+  "CMakeFiles/fileserver.dir/net/TcpClient/TcpClient.cpp.o"
+  "CMakeFiles/fileserver.dir/net/TcpConnection/TcpConnection.cpp.o"
+  "CMakeFiles/fileserver.dir/net/TcpServer/TcpServer.cpp.o"
+  "CMakeFiles/fileserver.dir/net/Timer.cpp.o"
+  "CMakeFiles/fileserver.dir/net/TimerQueue.cpp.o"
+  "CMakeFiles/fileserver.dir/fileserversrc/main.cpp.o"
+  "CMakeFiles/fileserver.dir/fileserversrc/FileServer.cpp.o"
+  "CMakeFiles/fileserver.dir/fileserversrc/FileSession.cpp.o"
+  "CMakeFiles/fileserver.dir/fileserversrc/FileManager.cpp.o"
+  "CMakeFiles/fileserver.dir/fileserversrc/TcpSession.cpp.o"
+  "CMakeFiles/fileserver.dir/utils/StringUtil.cpp.o"
+  "CMakeFiles/fileserver.dir/utils/URLEncodeUtil.cpp.o"
+  "CMakeFiles/fileserver.dir/utils/MD5.cpp.o"
+  "CMakeFiles/fileserver.dir/utils/DaemonRun.cpp.o"
+  "fileserver.pdb"
+  "fileserver"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/fileserver.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

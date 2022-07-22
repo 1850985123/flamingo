@@ -1,0 +1,15 @@
+2022-07-22 18:34:00.505591 [LOG_ERROR_WS]: received CLOSE opcode, close session, client: 219.134.169.100:53324
+2022-07-22 18:36:56.871390 [LOG_ERROR_WS]: received CLOSE opcode, close session, client: 219.134.169.100:53773
+2022-07-22 18:40:25.942684 [LOG_ERROR_WS]: received CLOSE opcode, close session, client: 219.134.169.100:52789
+2022-07-22 18:43:00.472715 [LOG_ERROR_WS]: received CLOSE opcode, close session, client: 219.134.169.100:51360
+2022-07-22 18:43:48.946351 [LOG_ERROR_WS]: received CLOSE opcode, close session, client: 219.134.169.100:51372
+2022-07-22 18:46:23.419058 [LOG_ERROR_WS]: received CLOSE opcode, close session, client: 219.134.169.100:52115
+2022-07-22 18:47:37.943730 [LOG_ERROR_WS]: received CLOSE opcode, close session, client: 219.134.169.100:51268
+2022-07-22 18:49:43.111890 [LOG_ERROR_WS]: received CLOSE opcode, close session, client: 219.134.169.100:54072
+2022-07-22 18:51:34.619209 [LOG_ERROR_WS]: received CLOSE opcode, close session, client: 219.134.169.100:53632
+2022-07-22 18:55:46.123629 [LOG_ERROR_WS]: received CLOSE opcode, close session, client: 219.134.169.100:53251
+2022-07-22 18:57:34.560334 [LOG_ERROR_WS]: received CLOSE opcode, close session, client: 219.134.169.100:53168
+2022-07-22 19:03:48.916574 [LOG_ERROR_WS]: received CLOSE opcode, close session, client: 219.134.169.100:53031
+2022-07-22 19:05:18.421844 [LOG_ERROR_WS]: received CLOSE opcode, close session, client: 219.134.169.100:53003
+2022-07-22 19:05:43.890409 [LOG_ERROR_WS]: received CLOSE opcode, close session, client: 219.134.169.100:52409
+2022-07-22 23:55:42.394896 [LOG_ERROR_WS]: received CLOSE opcode, close session, client: 219.134.169.100:50809

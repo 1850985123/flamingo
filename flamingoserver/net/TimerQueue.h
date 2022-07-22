@@ -5,7 +5,6 @@
 
 #include "../base/Timestamp.h"
 #include "../net/Callbacks.h"
-#include "../net/Channel.h"
 
 namespace net
 {

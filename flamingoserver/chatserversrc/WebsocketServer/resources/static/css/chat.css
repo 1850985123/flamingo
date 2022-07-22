@@ -1,0 +1,280 @@
+.talk_con {
+    width: 600px;
+    height: 500px;
+    border: 1px solid #666;
+    margin: 50px auto 0;
+    background: #f9f9f9;
+}
+
+.talk_show {
+    width: 580px;
+    height: 420px;
+    border: 1px solid #666;
+    background: #fff;
+    margin: 10px auto 0;
+    overflow: auto;
+}
+
+.talk_input {
+    width: 580px;
+    margin: 10px auto 0;
+}
+
+.whotalk {
+    width: 80px;
+    height: 30px;
+    float: left;
+    outline: none;
+}
+
+.talk_word {
+    width: 420px;
+    height: 26px;
+    padding: 0px;
+    float: left;
+    margin-left: 10px;
+    outline: none;
+    text-indent: 10px;
+}
+
+.talk_sub {
+    width: 56px;
+    height: 30px;
+    float: left;
+    margin-left: 10px;
+}
+
+.atalk {
+    margin: 10px;
+}
+
+.atalk span {
+    display: inline-block;
+    background: #0181cc;
+    border-radius: 10px;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+.btalk {
+    margin: 10px;
+    text-align: right;
+}
+
+.btalk span {
+    display: inline-block;
+    background: #ef8201;
+    border-radius: 10px;
+    color: #fff;
+    padding: 5px 10px;
+}
+
+
+#chatBody {
+
+    width: 100%;
+    height: 600px;
+    /* height: 100%; */
+    /* background-color: antiquewhite; */
+    /* border-style: solid; */
+    /* border-color: dodgerblue; */
+    border: none;
+}
+
+#chatMain {
+    /* 边框是实线 */
+    /* border-style: solid;
+    border-color: crimson; */
+    border: none;
+    width: 62%;
+    float: left;
+    height: 95%;
+    margin-left: 5px;
+    margin-top: 10px;
+    display: none;
+
+}
+
+/*************  消息展示区 ****************/
+#chatCnt {
+    background-color: aliceblue;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: aquamarine;
+
+    width: 95%;
+    height: 65%;
+    margin-left: 5px;
+    margin-top: 0px;
+    overflow-y: auto;
+
+}
+
+/*************  发送消息区 ****************/
+#chatArea {
+    background-color: azure;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: aquamarine;
+
+    width: 95%;
+    height: 30%;
+    margin-top: 15px;
+    margin-left: 5px;
+
+
+}
+
+#tex_content {
+    width: 99%;
+    height: 75%;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#submit {
+    float: right;
+    width: 200px;
+    background-color: #34d9d9;
+}
+
+
+/*************  好友列表，系统消息，好友查找 ****************/
+#lists {
+    border-style: solid;
+    border-color: aquamarine;
+    border-radius: 8px;
+
+    float: right;
+    width: 33%;
+    height: 95%;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+#lists .ul_title {
+    background-color: darkgrey;
+    padding-inline-start: 0px;
+    text-align: center;
+    margin-block-end: 0px;
+}
+
+/*  好友列表区 */
+#lists #friendsList_div {
+    width: 100%;
+    height: 40%;
+    overflow-y: auto;
+}
+
+#friendsList_div #friendsList {
+    list-style: none;
+}
+
+#friendsList li {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+#friendsList .group {
+    color: #ef8201;
+    margin-left: -20px;
+}
+
+#friendsList .friend {
+    color: #0b0c0e;
+    margin-top: 5px;
+}
+
+#friendsList .unreadDisplay {
+    color: crimson;
+    border-radius: 125px;
+    /* border-color: #34d9d9; */
+    float: right;
+    margin-right: 10px;
+    margin-top: -4px;
+    border: solid;
+    border-width: 1px;
+    /* padding: 2px; */
+    padding-left: 6px;
+    padding-right: 6px;
+
+}
+
+/*  系统消息区 */
+#lists #systemMsg_div {
+    width: 100%;
+    height: 30%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#systemMsg_div #systemMsg {
+    width: 100%;
+    margin-left: -16px;
+
+}
+
+#systemMsg .systemMsg_li {
+    margin-top: 8px;
+}
+
+
+/*  查找添加好区 */
+#lists #findFriend_div {
+    width: 100%;
+    height: 20%;
+}
+
+/* 查找好友 */
+#findFriend_div #findFriend_find {
+    width: 100%;
+    height: 20px;
+}
+
+#findFriend_div #findFriend_text {
+    float: left;
+    width: 65%;
+    height: 20px;
+    border-radius: 5px;
+    color: rgb(152, 158, 158);
+    /* border-width: 0; */
+}
+
+#findFriend_div #findFriend_btn {
+    float: right;
+    margin-right: 10px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+/* 查找好友的结果 */
+#findFriend_div #findFriend_result {
+    width: 100%;
+    margin-left: -16px;
+    /* height: 20px; */
+}
+
+.add_span {
+    float: left;
+    /* width: 60%; */
+    height: 20px;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+.add_btn {
+    float: right;
+    margin-right: 34px;
+    height: 20px;
+    border-radius: 5px;
+    color: #0a06f7;
+    text-align: center;
+}
+
+.onfocus {
+    font-size: 20px;
+}
+
+.onblur {
+    font-size: 10px;
+}

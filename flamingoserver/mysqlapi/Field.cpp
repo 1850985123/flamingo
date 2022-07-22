@@ -25,5 +25,7 @@ Field::~Field()
 void Field::setValue(const char *value, size_t uLen)
 {
     //m_strValue = value;
+
+    //deng: value 开始 uLen大小 赋值给 m_strValue
     m_strValue.assign(value, uLen);
 }

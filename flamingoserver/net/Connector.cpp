@@ -4,11 +4,8 @@
 #include <sstream>
 #include <iostream>
 #include <string.h> //for strerror
-#include "../base/AsyncLog.h"
+#include "../deng.h"
 #include "../base/Platform.h"
-#include "Channel.h"
-#include "EventLoop.h"
-#include "Sockets.h"
 
 using namespace net;
 

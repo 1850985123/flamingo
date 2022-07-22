@@ -6,9 +6,9 @@
 #include <string.h>
 #include <sstream>
 #include <list>
-#include "../net/TcpConnection.h"
+
 #include "../net/ProtocolStream.h"
-#include "../base/AsyncLog.h"
+#include "../deng.h"
 #include "../base/Singleton.h"
 #include "FileMsg.h"
 #include "FileManager.h"

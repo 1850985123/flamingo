@@ -1,6 +1,6 @@
 #include "TaskList.h"
 #include <string.h>
-#include "../base/AsyncLog.h"
+#include "../deng.h"
 
 CTaskList::CTaskList() : m_uReadIndex(0), m_uWriteIndex(0)
 {

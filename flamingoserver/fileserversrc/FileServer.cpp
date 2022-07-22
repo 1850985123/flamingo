@@ -4,7 +4,7 @@
  **/
 #include "FileServer.h"
 #include "../net/InetAddress.h"
-#include "../base/AsyncLog.h"
+#include "../deng.h"
 #include "../base/Singleton.h"
 #include "FileSession.h"
 
